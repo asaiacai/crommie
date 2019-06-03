@@ -2,12 +2,11 @@
   path: /
   section_id: home
 - name: About
+  path: /about
   section_id: about
-  children: 
-    - name: Officers
-      path: /officers
-    - name: UPE
-      path: /upe
+- name: Members
+  path: /members
+  section_id: members
 - name: Student Services
   section_id: student-services
   children:

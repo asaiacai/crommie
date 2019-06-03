@@ -3275,6 +3275,9 @@ body {
   position: relative;
   overflow: hidden;
   margin-bottom: 20px;
+  background: 50% 50% no-repeat;
+  width: 250px;
+  height: 250px;
 }
 .modTeamMember ul {
   margin: 0;
