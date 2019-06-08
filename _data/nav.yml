@@ -1,21 +1,12 @@
 - name: Home
   path: /
   section_id: home
-- name: About
-  path: /about
-  section_id: about
+- name: Research
+  path: /research
+  section_id: research
 - name: Members
   path: /members
   section_id: members
-- name: Student Services
-  section_id: student-services
-  children:
-    - name: Office Hours
-      path: /officehours
-    - name: Mock Interviews
-      path: /interview
-    - name: Events
-      path: /events
-- name: Industrial Relations
-  path: /indrel
-  section_id: indrel
+- name: Publications
+  path: /publications
+  section_id: publications
