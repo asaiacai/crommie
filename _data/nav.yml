@@ -4,6 +4,9 @@
 - name: Research
   path: /research
   section_id: research
+- name: Highlights
+  path: /highlights
+  section_id: highlights
 - name: Members
   path: /members
   section_id: members
