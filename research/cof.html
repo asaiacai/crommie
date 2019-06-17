@@ -10,7 +10,7 @@ section_id: cof
     <div class='large-12 columns'>
       {% include section-header.html title="Covalent Organic Frameworks" color="#000" %}
       <div class='spacing'></div>
-      <img src="/images/research/cof/cof1.png"  align="middle">
+      <img src="{{"/images/research/cof/cof1.png" | prepend: site.baseurl }}" align="middle">
       <div class='spacing'></div>
       <figcaption align="middle">
         <h3>Fig. 1:  (a) Precursor molecule and covalently bonded network is shown for COF1.  (b) Precursor molecule and bonded network is shown for BP-COF.</h3>
@@ -18,7 +18,7 @@ section_id: cof
       <div class='spacing'></div>
       <p>Covalent organic frameworks (COFs) are 2D molecular networks formed through covalent self-assembly of precursor molecules (two examples are shown in <b>Fig. 1</b>).<sup>1</sup> COFs provide a new strategy for creating 2D materials by designing the unit cell as a molecule and then stitching the unit cells together into a crystal through molecular self-assembly.<sup>2</sup> The Crommie group is actively pursuing this bottom-up strategy of material discovery through exploration of different 2D COF systems.  The power of this technique is that the tools of organic chemistry provide extraordinary flexibility regarding the different molecular unit cells that can be fabricated.</p>
       <div class='spacing'></div>
-      <img src="/images/research/cof/cof2.png"  align="middle">
+      <img src="{{"/images/research/cof/cof2.png" | prepend: site.baseurl}}"  align="middle">
       <div class='spacing'></div>
       <figcaption align="middle">
         <h3>Fig. 2:  (a) Sketch shows equivalency between honeycomb-ordered COF network and Kagome lattice.  (b) Sketch illustrates quantum interference that arises in Kagome lattice.  (c) Destructive quantum interference leads to flat band in Kagome electronic structure.  Dirac-like crossings are also present. (d)-(f) Unique electronic structure of Kagome lattice leads to predictions of novel magnetism, Wigner crystallization, and quantum spin Hall effect.</h3>
@@ -26,7 +26,7 @@ section_id: cof
       <div class='spacing'></div>
       <p>The study of COFs has mostly been a playground for organic chemists, but condensed matter physicists have begun to appreciate that this method of synthesis provides new possibilities for creating novel 2D materials that are difficult to fabricate using traditional techniques.  An example is the Kagome lattice, a 2D network of interpenetrating star-of-David clusters <b>(Fig. 2a)</b>. The core-linker honeycomb geometry (where cores lie at the honeycomb intersections and linkers fit between them) is a prevalent motif in COFs and quite naturally yields the Kagome lattice (i.e., the lattice of linker molecules <i>is</i> a Kagome lattice).<sup>3</sup> This is an interesting structure from a magnetic point of view since (in the case of antiferromagnetic interactions) it is highly frustrated <b>(Fig. 2d)</b> and is predicted to yield novel magnetic behavior (e.g., quantum spin liquids).  When looked at from an electronic structure perspective (say, via a tight-binding model) then the Kagome lattice leads to a novel quantum interference network <b>(Fig. 2b)</b> that results both in an extremely flat band as well as Dirac-like crossings <b>(Fig. 2c)</b>. This has led to a number of exciting theoretical predictions for novel COF behavior that range from Wigner crystallization of electrons <b>(Fig. 2e)</b> to the quantum spin Hall effect <b>(Fig. 2f)</b>.<sup>3</sup></p>
       <div class='spacing'></div>
-      <img src="/images/research/cof/cof3.png"  align="middle">
+      <img src="{{"/images/research/cof/cof3.png" | prepend: site.baseurl }}"  align="middle">
       <div class='spacing'></div>
       <figcaption align="middle">
         <h3>Fig. 3:  STM images of (a) single-layer COF1 and (b) single-layer BP-COF grown on Au(111).  Sketches of the two COF structures on Au(111) are shown in (c)-(d). (STM images: Crommie group; structure rendering: Bredas group).</h3>
@@ -34,7 +34,7 @@ section_id: cof
       <div class='spacing'></div>
       <p>The Crommie group has explored the synthesis of 2D COFs with Kagome symmetry.  Two examples are shown in <b>Fig. 3</b>. <b>Fig. 3a</b> shows an STM image of COF1 grown on Au(111) while <b>Fig. 3b</b> shows an STM image of BP-COF grown on Au(111). <b>Figs. 3c, d</b> show sketches of the COF structures along with the underlying Au lattice (these are the same COFs sketched in <b>Fig. 1</b>). Here the phenyl linkers between the boroxine rings lie on a Kagome lattice.  Different electronic structure explorations of these and related COF systems are currently under way.</p>
       <div class='spacing'></div>
-      <img src="/images/research/cof/cof4.png"  align="middle">
+      <img src="{{"/images/research/cof/cof4.png" | prepend: site.baseurl }}"  align="middle">
       <div class='spacing'></div>
       <figcaption align="middle">
         <h3>Fig. 4:  (a) Sketch of square-symmetry Lieb lattice.  (b) Predicted band structure of Lieb lattice exhibits flat bands and Dirac-like crossings.</h3>
@@ -42,7 +42,7 @@ section_id: cof
       <div class='spacing'></div>
       <p>Another important lattice symmetry that commonly arises in 2D COF systems is the square lattice <b>(Fig. 4)</b>. This is often referred to as a “Lieb lattice” and can lead to both flat band manifolds and massless Dirac fermions <b>(Fig. 4b)</b>.</p>
       <div class='spacing'></div>
-      <img src="/images/research/cof/cof5.png"  align="middle">
+      <img src="{{"/images/research/cof/cof5.png" | prepend: site.baseurl }}"  align="middle">
       <div class='spacing'></div>
       <figcaption align="middle">
         <h3>Fig. 5:  (a)-(b) Precursor molecules and fully formed molecular network for COF366-OMe. (c) STM image of COF366-OME and dI/dV maps of the COF LUMO and HOMO orbitals.  (d) STM spectroscopy of COF366-OMe reveals a 2 eV bandgap..</h3>
@@ -50,7 +50,7 @@ section_id: cof
       <div class='spacing'></div>
       <p>Porphyrin molecules have a 4-fold symmetric structure that naturally leads to square molecular arrays, as shown in <b>Fig. 5a</b>. The Crommie group has combined porphyrin-based TAPP core molecule with DMA linker molecules to create square-lattice COFs as shown in <b>Figs. 5b, c.</b><sup>4</sup> <b>Fig. 5c</b> shows an STM image of one such COF (named COF 366-OMe) on Au(111). dI/dV images of the highest occupied molecular orbital (HOMO) and lowest unoccupied molecular orbital (LUMO) are also shown.  STM dI/dV point spectroscopy shows that this square lattice COF has a bandgap of 2 eV <b>(Fig. 5d)</b>.<sup>4</sup></p>
       <div class='spacing'></div>
-      <img src="/images/research/cof/cof6.png"  align="middle">
+      <img src="{{"/images/research/cof/cof6.png" | prepend: site.baseurl }}"  align="middle">
       <div class='spacing'></div>
       <figcaption align="middle">
         <h3>Fig. 6:  (a)-(b) Sketches representing heterojunction COF obtained by energetically offsetting one COF sublattice with respect to the other.  This enables tuning of Egap.  (c) New technique for creating donor/acceptor pairs within COF by incorporating dipole into linker arm. (d) Molecular precursors used to create heterojunction COF with energetically staggered sublattices.  (Molecular design: Yaghi group).</h3>
@@ -58,7 +58,7 @@ section_id: cof
       <div class='spacing'></div>
       <p>The power of bottom-up synthesis can be seen in the successful creation of a molecular heterojunction superlattice by the Crommie group.5  The idea here is to create a potential offset on every other molecule within a COF, thus inducing a superlattice so that the COF can be described as two interpenetrating sublattices (the “A” and “B” sublattices) that are offset by an energy = ∆ <b>(Figs. 6a, b)</b>. There are many reasons why this might be desirable.  For example, it allows the COF bandgap to be tuned <b>(Figs. 6b)</b>. It also creates separate sublattices for the transport of photo-induced electron and hole excitations, thus potentially enhancing photovoltaic properties.  In the parlance of this field the molecule pushed to higher energy is called the “donor” and the molecule held at lower energy is the “acceptor” <b>(Fig. 6c)</b>.</p>
       <div class='spacing'></div>
-      <img src="/images/research/cof/cof7.png"  align="middle">
+      <img src="{{"/images/research/cof/cof7.png" | prepend: site.baseurl }}"  align="middle">
       <div class='spacing'></div>
       <figcaption align="middle">
         <h3>Fig. 7:  (a) STM image of heterojunction COF grown on Au(111) using precursors shown in Fig. 6d.  (b) Zoom-in view of heterojunction COF shows “checkerboard” pattern that arises from the potential offset of one COF sublattice with respect to the other.  (STM images: Crommie group; precursor molecule synthesis: Yaghi group).</h3>

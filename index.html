@@ -17,11 +17,11 @@ slides:
   - bg: /images/highlights/cof.png
     small_title:
       klass: bottom-to-top
-      text: ""
+      text: "LOCAL ELECTRONIC STRUCTURE OF MOLECULAR HETEROJUNCTIONS IN A SINGLE-LAYER 2D COVALENT ORGANIC FRAMEWORK" 
 
     title:
       klass: bottom-to-top
-      text: "LOCAL ELECTRONIC STRUCTURE OF MOLECULAR HETEROJUNCTIONS IN A SINGLE-LAYER 2D COVALENT ORGANIC FRAMEWORK"
+      text: ""
     buttons:
       klass: bottom-to-top
       items:
@@ -71,7 +71,7 @@ slides:
         {% endif %}
 
         <li class='frame {{style}} {{ slide.klass }}'>
-          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
+          <div class='bg' style='background-image: url({{ slide.bg | prepend: site.baseurl}});'></div>
           <div class='small-title {{ slide.small_title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
@@ -91,7 +91,7 @@ slides:
               <div class='large-12 columns'>
                 <div class='two spacing'></div>
                 {% for button in slide.buttons.items %}
-                  <a class='button {{ button.klass }}' href='{{ button.link_to }}'>{{ button.text }}</a>
+                  <a class='button {{ button.klass }}' href='{{ button.link_to | prepend: site.baseurl}}'>{{ button.text }}</a>
                 {% endfor %}
               </div>
             </div>

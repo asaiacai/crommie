@@ -3,7 +3,7 @@
     <ul class='title-area'>
       <li class='name'>
         <h1>
-          <a href='/'>
+	  <a href='{{site.url}}'>
             Crommie Lab
           </a>
         </h1>
@@ -38,7 +38,7 @@
             </li>
           {% else %}
             <li class="{{active_class}}">
-              <a href="{{ item.path }}">{{ item.name }}</a>
+              <a href="{{ item.path | prepend: site.baseurl}}">{{ item.name }}</a>
             </li>
           {% endif %}
         {% endfor %}

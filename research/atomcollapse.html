@@ -10,20 +10,20 @@ section_id: atomcollapse
     <div class='large-12 columns'>
       {% include section-header.html title="Atomic Collapse in Graphene" color="#000" %}
       <p>Atomic collapse is a novel electronic phenomenon that occurs when relativistic electrons move in the vicinity of highly charged Coulomb centers. It was first observed by the Crommie group through the manipulation of charged atoms on graphene field-effect transistor (FET) devices.<sup>1</sup> The basic idea was predicted 75 years ago and addresses the fundamental quantum mechanical question of what happens when the positive charge in the nucleus of an atom (+Ze) gets extremely large.<sup>2</sup> In non-relativistic quantum mechanics the binding energies of atomic levels simply get deeper (and the wavefunctions more localized) as Z increases, corresponding to semi-classical circular orbits of smaller and smaller radii. When relativity is taken into account, however, the picture changes dramatically due to the presence of the Dirac sea (i.e., the negative energy continuum). When the atomic binding energy gets large enough <b>(Fig. 1a)</b> the Coulomb potential of the nucleus is predicted to rip an electron from the Dirac sea and leave behind a hole (i.e., a positron) <b>(Fig. 1b)</b>. The difficulty in observing this novel type of electron-positron pair production is that for it to occur the positive charge on the nucleus must surpass a “critical charge” Z<sub>c</sub> = 1/α = 137, where α is the fine structure constant α = e<sup>2</sup>/ħc = 1/137. Creating a “supercritical” nucleus with Z > 137, however, is extremely difficult since such heavy nuclei are unstable, and so this phenomenon has not yet been unambiguously observed in bare atoms or nuclei.</p>
-      <img src="/images/research/atomcollapse/atom1.png" />
+      <img src="{{"/images/research/atomcollapse/atom1.png" | prepend: site.baseurl }}"/>
       <div class='spacing'></div>
       <figcaption align="middle">
         <h3><b>Fig. 1:  (a) </b>Energy level diagram of hydrogen for very large Z. <b>(b)</b> Electron-positron pair production due to atomic collapse.</h3>
       </figcaption>
       <div class='spacing'></div>
       <p>The discovery of graphene created a unique opportunity to observe atomic collapse behavior because electrons in graphene behave like ultra-relativistic particles with a linear dispersion, E = ħv<sub>F</sub>, where v<sub>F</sub> is the Fermi velocity and m = 0. Because v<sub>F</sub>, the effective fine structure constant for graphene is much larger than for bare vacuum: α<sup>*</sup> = e<sup>2</sup>/ħv<sub>F</sub> ≈ 1 <b>(Fig. 2a)</b>.  This means that in graphene the critical charge is only Z<sub>c</sub> ≈ 1, suggesting that supercritical behavior should occur in graphene around defect impurities that have charge on the order of q ≈ +e (corresponding to Z ≈ 1) <b>(Fig. 2b)</b>.</p>
-      <img src="/images/research/atomcollapse/atom2.png" />
+      <img src="{{"/images/research/atomcollapse/atom2.png" | prepend: site.baseurl}}"/>
       <div class='spacing'></div>
       <figcaption align="middle">
         <h3><b>Fig. 2:  (a) </b>Z<sub>c</sub> for a Coulomb impurity in graphene. <b>(b)</b> Atomic collapse for supercritical impurity in graphene.</h3>
       </figcaption>
       <div class='spacing'></div>
-      <img src="/images/research/atomcollapse/atom3.png" />
+      <img src="{{"/images/research/atomcollapse/atom3.png" | prepend: site.baseurl}}"/>
       <div class='spacing'></div>
       <figcaption align="middle">
         <h3><b>Fig. 3: </b>Schematic representation of electron behavior in subcritical vs. supercritical regime.</h3>
@@ -32,7 +32,7 @@ section_id: atomcollapse
       <p>Theoretical predictions by the groups of Levitov<sup>3</sup> and Castroneto<sup>4</sup> suggested that Coulomb impurities with charge Z < Z<sub>c</sub> (“supercritical” impurities) should exhibit a novel quasi-bound state that is the condensed matter analog of electron-positron pair production in bare supercritical nuclei <b>(Fig. 3)</b>  The resulting quantum mechanical state is called an “atomic collapse” state since it corresponds to a semi-classical electron trajectory that spirals inward to the center of the Coulomb potential. The electron can be thought of as undergoing periodic spiraling in and out of the Coulomb well (in the far-field the wavefunction is hole-like).</p>
       <p>The Crommie group set out to observe this phenomenon by assembling charged atoms at the surface of a graphene field effect transistor (FET) <b>(Fig. 4)</b>. The idea was to assemble “artificial nuclei” whose charge (Z) could span the subcritical (Z < Z<sub>c</sub>) and supercritical (Z > Z<sub>c</sub>) regimes. STM spectroscopy would then be used to image electrons in these different regimes by spectroscopically mapping the electronic local density of states (LDOS) <b>(Fig. 4).</p>
       <div class='spacing'></div>
-      <img src="/images/research/atomcollapse/atom5.png" />
+      <img src="{{"/images/research/atomcollapse/atom5.png" | prepend: site.baseurl }}"/>
       <div class='spacing'></div>
       <figcaption align="middle">
         <h3><b>Fig. 4: </b>Graphene FET device used to image atomic collapse in graphene.</h3>
@@ -40,7 +40,7 @@ section_id: atomcollapse
       <div class='spacing'></div>
       <p>This strategy was successful, as shown in <b>Fig. 5</b>. Calcium atoms were deposited onto the surface of a graphene FET and were induced to form “dimers” (pairs of atoms) since dimers are easier to manipulate than individual calcium atoms. The dimers (which each have a positive charge of Z ≈ 1) were then manipulated into artificial nuclei using the tip of the STM <b>(Figs. a-e)</b>. STM spectroscopy was used to probe the calcium clusters for signs of the atomic collapse resonance. As seen in <b>Figs. 5f-j</b> the transition from a subcritical impurity (Z < Z<sub>c</sub>) to a supercritical impurity (Z > Z<sub>c</sub>) was successfuly observed.<sup>1</sup></p>
       <div class='spacing'></div>
-      <img src="/images/research/atomcollapse/atom4.png" />
+      <img src="{{"/images/research/atomcollapse/atom4.png" | prepend: site.baseurl}}"/>
       <div class='spacing'></div>
       <figcaption align="middle">
         <h3><b>Fig. 5: (a)-(e)</b>Building Coulomb centers with increasing Z by manipulating Ca dimers. <b>(f)-(j)</b> Spectroscopy of the resulting “artificial nuclei” shows the evolution of the atomic collapse state as Z increases beyond Z<sub>c</sub>. (STM data from Crommie group).</h3>
@@ -48,7 +48,7 @@ section_id: atomcollapse
       <div class='spacing'></div>
       <p>For example, one calcium dimer (Z ≈ 1) was observed to show no sign of a resonance near the Dirac point <b>(Fig. 5f)</b>, while a cluster of 5 calcium dimers was observed to show a striking atomic collapse state at the Dirac point, precisely as predicted by theory <b>(Fig. 5j)</b>. This state (imaged in <b>Fig. 6a)</b> is the most highly confined state that is possible to induce in pristine graphene (i.e., without breaking carbon bonds).</p>
       <div class='spacing'></div>
-      <img src="/images/research/atomcollapse/atom6.png" />
+      <img src="{{"/images/research/atomcollapse/atom6.png" | prepend: site.baseurl}}"/>
       <div class='spacing'></div>
       <figcaption align="middle">
         <h3><b>Fig. 6: (a)</b>STM image of the atomic collapse state for a cluster of 5 Ca dimers. <b>(b)</b> Experimental linecut through atomic collapse state. <b>(c)</b> Theoretical prediction for linecut through atomic collapse state (i.e. wavefunction state density).</h3>

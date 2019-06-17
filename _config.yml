@@ -1,13 +1,12 @@
 # Site settings
 title: Crommie Group
 email: asai (at) berkeley (dot) edu
-#baseurl: "/~crommie" # the subpath of your site, e.g. /blog/
-url: "https://crommie.berkeley.edu" # the base hostname & protocol for your site
+baseurl: "/~crommie" # the subpath of your site, e.g. /blog/
+url: "https://ocf.berkeley.edu/" # the base hostname & protocol for your site
 twitter_username: ""
 github_username:  ""
 
 # Build settings
 markdown: kramdown
-
-
+exclude: [vendor/bundle]
 permalink: pretty

@@ -61,7 +61,7 @@ services:
   <div class='row'>
     <div class='medium-6 columns'>
     <a href="{{service.url}}">
-      <img src="{{service.img}}"/>
+      <img src="{{service.img | prepend: site.baseurl}}"/>
     </a>
     <div class='two spacing'></div>
     </div>

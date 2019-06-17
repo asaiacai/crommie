@@ -1,5 +1,5 @@
 - name: Home
-  path: /
+  path: / 
   section_id: home
 - name: Research
   path: /research
@@ -8,8 +8,8 @@
   path: /highlights
   section_id: highlights
 - name: Members
-  path: /members
+  path: /members 
   section_id: members
 - name: Publications
-  path: /publications
+  path: /publications 
   section_id: publications

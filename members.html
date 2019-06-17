@@ -4,7 +4,7 @@ title: Members
 section_id: about
 ---
 
-<div class='full parallax' style='background-image: url(/images/crommieparty.png); color: #fff;'>
+<div class='full parallax' style='background-image: url({{ "/images/crommieparty.png" | prepend: site.baseurl}}); color: #fff;'>
   <div class='row'>
     <div class='twelve columns'>
       {% include section-header.html title="Members" color="#fff" class="big" %}
@@ -19,7 +19,7 @@ section_id: about
       <div class='small-6 medium-3 large-3 columns'>
         <div class='mod modTeamMember'>
           <div class='member'>
-              <img alt="" src="{{member.avatar}}"/>
+              <img alt="" src="{{member.avatar | prepend: site.baseurl}}"/>
           </div>
           <div class = "officer-desc">
             <div class='intro'>
