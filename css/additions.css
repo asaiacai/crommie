@@ -16,9 +16,9 @@
 }
 
 p {
+
   font-size: 1.15rem;
   color:#7e7e7e;
-  text-indent: 2rem;
 }
 
 .overlay-image {
@@ -35,27 +35,4 @@ p {
 
 .overlay-image:hover {
   opacity: 1
-}
-
-.full .row {
-    max-width:50rem;
-}
-
-body {
-    min-width:20rem;
-}
-
-figcaption h3 {
-    text-transform:none;
-    font-size: 0.8rem;
-}
-
-.columns img {
-    width:100%
-}
-
-.columns figcaption {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
 }

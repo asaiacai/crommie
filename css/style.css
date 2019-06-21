@@ -807,18 +807,6 @@ ul.shortcode-list i {
   color: #333;
 }
 
-@media only screen and (max-width: 30rem) {
-    .top-bar .title-area .name h1 a {
-        font-size: calc(-1.3rem + 11.904766666666666vw);
-    }
-}
-
-@media only screen and (max-width: 20rem) {
-    .top-bar .title-area .name h1 a {
-        font-size: 1.0809533333333332rem;
-    }
-}
-
 .contain-to-grid {
   -moz-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
