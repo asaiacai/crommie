@@ -9,38 +9,36 @@ section_id: gnrhet
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title="Bottom-Up Synthesis of GNR Heterojunctions" color="#000" %}
-      <div class='spacing'></div>
-      <img src="{{"/images/research/gnrhet/gnrhet1.png" | prepend: site.baseurl }}"  align="middle">
-      <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3>Fig. 1:  (a) Sketch of segment of armchair GNR of width = w.  (b) Width confinement of GNR leads to quantization of states in momentum space.  (c) Prediction of armchair GNR energy gap as a function of GNR width by Son, Cohen, and Louie.</h3>
-      </figcaption>
-      <div class='spacing'></div>
       <p>Graphene nanoribbons (GNRs) are thin strips of graphene that can have different nanoscale widths and edge symmetries (e.g., armchair, zigzag, chiral…) <b>(Fig. 1a)</b>. Although they are made from a 2D material (graphene), they have intrinsic 1D character. The Crommie group is actively pursuing research in this area to create new types of GNRs with novel electronic and magnetic properties.  GNRs provide the ultimate level of control for creating nanoscale carbon networks with engineered quantum functionality.</p>
       <p>While an infinite sheet of graphene is characterized by a semi-metallic band structure (yielding Dirac cones), if you cut the graphene into strips (i.e., GNRs) then size quantization causes an energy gap to open <b>(Fig. 1b)</b>. The resulting energy gap is roughly inversely proportional to the GNR width for both armchair and zigzag GNRs<sup>1</sup> <b>(Fig. 1c)</b>.  This is exciting for future applications since GNRs promise the ultimate potential device performance in terms of size, mobility, and bandgap control.<sup>2</sup>  The problem, however, is how to fabricate them with the structural precision required to realize these benefits. Standard top-down procedures (e.g., e-beam lithography) don’t provide the atomic-scale structural precision necessary to control GNR electronic and magnetic properties.</p>
+      <figure>
+      <img src="{{"/images/research/gnrhet/gnrhet1.png" | prepend: site.baseurl }}"  align="middle">
+      <figcaption style="display:table-caption">
+        <b>Fig. 1:  (a)</b> Sketch of segment of armchair GNR of width = w.  <b>(b)</b> Width confinement of GNR leads to quantization of states in momentum space.  <b>(c)</b> Prediction of armchair GNR energy gap as a function of GNR width by Son, Cohen, and Louie.
+      </figcaption>
+      </figure>
       <p>Currently the only way to achieve reproducible atomic-level structural precision in GNR fabrication is through bottom-up synthesis.<sup>3</sup> The idea here is to engineer “precursor molecules” to self-assemble into structurally perfect GNRs. The power of this technique is that one can then engineer new types of GNRs by simply modifying the structure of the precursor molecule. It is much easier to modify a molecule using the tools of organic chemistry than it is to modify a fully formed GNR. A collaboration between Fasel and Muellen was the first to achieve such bottom-up synthesis of GNRs using the molecular strategy shown in <b>Fig. 2.</b><sup>4</sup> Using this method precursor molecules (DBBA) with Br atoms on either side <b>(Fig. 2a)</b> are dropped onto a Au(111) surface and heated up to ~200C. This causes the Br atoms to detach and leave behind unpaired electrons (radicals) <b>(Fig. 2b)</b>. When the radicals meet on the surface they form chemical bonds with each other, causing polymerization of the precursor molecules <b>(Fig. 2c).</b> Upon further annealing (~400C) interior hydrogens leave and additional bonds are formed in a process called cyclodehydrogenation, resulting in fully formed GNRs <b>(Fig. 2c).</b></p>
-       <div class='spacing'></div>
+      <figure>
        <img src="{{"/images/research/gnrhet/gnrhet2.png" | prepend: site.baseurl }}"  align="middle">
       <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3>Fig. 2: (a) Precursor molecule used to form GNRs via bottom-up surface self-assembly.  (b) Removal of Br atoms on metal surface leaves behind unpaired electrons (i.e., radicals).  (c) Radicals bond to form polymer.  (d) Fully cyclized GNR is formed after final cyclodehydrogenation step. </h3>
+      <figcaption style="display:table-caption">
+        <b>Fig. 2: (a)</b> Precursor molecule used to form GNRs via bottom-up surface self-assembly.  <b>(b)</b> Removal of Br atoms on metal surface leaves behind unpaired electrons (i.e., radicals).  <b>(c)</b> Radicals bond to form polymer.  <b>(d)</b> Fully cyclized GNR is formed after final cyclodehydrogenation step.
       </figcaption>
-      <div class='spacing'></div>
-      <img src="{{"/images/research/gnrhet/gnrhet3.png" | prepend: site.baseurl }}" align="middle">
-      <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3>Fig. 3:  (a) Desired energy gaps in GNR heterojunction can be chosen from energy gap vs. width plot.  (b) Schematic representation of origin of different energy gaps in width-dependent GNR heterojunction.  (c) Experimental realization of width-dependent GNR heterojunction (STM imaging: Crommie group; precursor synthesis: F. Fischer group). (d) STM spectroscopy at positions marked in (c) shows width-dependent energy gaps in GNR heterojunction. </h3>
-      </figcaption>
-      <div class='spacing'></div>
+      </figure>
       <p>A strength of bottom-up synthesis is that it is possible to create novel molecular heterostructures by mixing precursors and fusing different types of GNR segments.<sup>5,6</sup> The Crommie group has used this technique to perform molecular bandgap engineering by fusing together GNR segments of different width <b>(Fig. 3c)</b>. The different width segments have different band gaps according to the E<sub>gap</sub> vs. width plot in <b>(Fig. 3a)</b>, allowing fabrication of GNR heterojunctions with atomically-precise interfaces.<sup>6</sup></p>
-      <p>The Crommie group has also shown that it is possible to use molecular precursors that can be modified <i>after</i> GNR growth to create atomically-precise p-n junctions<sup>7</sup> (precursor molecule synthesis by F. Fischer’s group). <b>Fig. 4a</b> shows a sketch of the resulting GNR heterojunction which involves removal of edge carbonyl (C=O) groups from one side of the GNR, thus creating a heterojunction between C=O functionalized and bare GNR segments. <b>Fig. 4b</b> 4b shows a bond-resolved STM image of this GNR heterojunction, in which the C=O groups can clearly be resolved on the left half of the heterojunction. STM spectroscopy shows that the GNR side with no C=O groups is shifted up in energy and has a wider energy gap compared to the functionalized side. The resulting GNR thus forms an atomically-precise type II heterojunction with a staggered energy gap that results in an effective electric field of ~3x10<sup>8</sup> V/m at the atomically well-defined junction interface.</p>
-      <div class='spacing'></div>
-      <img src="{{"/images/research/gnrhet/gnrhet4.png" | prepend: site.baseurl }}"  align="middle">
-      <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3>Fig. 4:  (a) Sketch of GNR type II heterojunction formed by removing carbonyl groups (C=O) from one side of GNR.  (b) Bond-resolved STM image of actual GNR heterojunction having same structure as the sketch in (a) (STM imaging and spectroscopy: Crommie group; precursor synthesis: Fischer group).  (c) Spectroscopic map taken at different points along GNR heterojunction (as shown in (a)) reveals position-dependent energy gap.  A type II staggered gap heterojunction is observed.</h3>
+      <figure>
+      <img src="{{"/images/research/gnrhet/gnrhet3.png" | prepend: site.baseurl }}" align="middle">
+      <figcaption style="display:table-caption">
+        <b>Fig. 3:  (a)</b> Desired energy gaps in GNR heterojunction can be chosen from energy gap vs. width plot.  <b>(b)</b> Schematic representation of origin of different energy gaps in width-dependent GNR heterojunction.  <b>(c)</b> Experimental realization of width-dependent GNR heterojunction (STM imaging: Crommie group; precursor synthesis: F. Fischer group). <b>(d)</b> STM spectroscopy at positions marked in <b>(c)</b> shows width-dependent energy gaps in GNR heterojunction.
       </figcaption>
-      <div class='spacing'></div>
+      </figure>
+      <p>The Crommie group has also shown that it is possible to use molecular precursors that can be modified <i>after</i> GNR growth to create atomically-precise p-n junctions<sup>7</sup> (precursor molecule synthesis by F. Fischer’s group). <b>Fig. 4a</b> shows a sketch of the resulting GNR heterojunction which involves removal of edge carbonyl (C=O) groups from one side of the GNR, thus creating a heterojunction between C=O functionalized and bare GNR segments. <b>Fig. 4b</b> 4b shows a bond-resolved STM image of this GNR heterojunction, in which the C=O groups can clearly be resolved on the left half of the heterojunction. STM spectroscopy shows that the GNR side with no C=O groups is shifted up in energy and has a wider energy gap compared to the functionalized side. The resulting GNR thus forms an atomically-precise type II heterojunction with a staggered energy gap that results in an effective electric field of ~3x10<sup>8</sup> V/m at the atomically well-defined junction interface.</p>
+      <figure>
+      <img src="{{"/images/research/gnrhet/gnrhet4.png" | prepend: site.baseurl }}"  align="middle">
+      <figcaption style="display:table-caption">
+        <b>Fig. 4: (a)</b> Sketch of GNR type II heterojunction formed by removing carbonyl groups (C=O) from one side of GNR.  <b>(b)</b> Bond-resolved STM image of actual GNR heterojunction having same structure as the sketch in (a) (STM imaging and spectroscopy: Crommie group; precursor synthesis: Fischer group).  <b>(c)</b> Spectroscopic map taken at different points along GNR heterojunction (as shown in <b>(a)</b>) reveals position-dependent energy gap.  A type II staggered gap heterojunction is observed.
+      </figcaption>
+      </figure>
       <h2>References</h2>
       <p>1. Y.-W. Son, M. L. Cohen & S. G. Louie, "Energy Gaps in Graphene Nanoribbons", Physical Review Letters 97, 216803 (2006).</p>
       <p>2. Y. Yoon & S. Salahuddin, "Dissipative transport in rough edge graphene nanoribbon tunnel transistors", Applied Physics Letters 101, 263501 (2012).</p>

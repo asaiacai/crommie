@@ -9,46 +9,48 @@ section_id: topological
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title="Imaging Topological Effects in 2D Materials" color="#000" %}
-      <p>Topology plays an increasingly important role in modern condensed matter physics. Insulators can now be classified by their topology similarly to how geometric shapes are classified. The more familiar topology of geometric shapes is determined by integrating a local property (geometric curvature) over the entire surface of the shape, thus yielding a global invariant that does not change even if the shape is modified (so long as one doesn’t poke a new hole through it). Topology for materials is similarly determined by integrating Berry curvature over the surface of a material’s Brillouin zone. The resulting global invariant is the Berry phase of the material (related to the “winding” number), which determines its topological classification. This classification is invariant to changes in the material’s Hamiltonian, so long as it doesn’t collapse to zero anywhere in the Brillouin zone (which is analogous to poking a hole in a geometric shape). If two materials with different topological classifications are fused at a boundary then the Hamiltonian must cross zero there, resulting in a conducting edge state.<sup>1</sup></p>
-      <div class='spacing'></div>
-      <img src="{{"/images/research/topological/top1.png" | prepend: site.baseurl}}" />
-      <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3><b>Fig. 1:  (a) </b>1T’ phase of a single-layer TMD material. <b>(b)-(c)</b> Band inversion for single-layer 1T’ TMD materials leads to quantum spin Hall effect. <b>(d)</b> Edge-states of quantum spin Hall insulator.</h3>
-      </figcaption>
-      <div class='spacing'></div>
-      <p>This was first predicted by Kane and Mele in a 2D model of graphene that included spin-orbit coupling.<sup>2</sup>  Spin-orbit coupling is not strong enough to experimentally induce such behavior in graphene, but Bernevig, <i>et al.</i> recognized that HgTe quantum wells fulfill the conditions required by the Kane-Mele model for topological behavior. This was subsequently confirmed experimentally by Koenig, <i> et al.</i>, thus triggering an avalanche of research into topological insulators.</p>
-      <div class='spacing'></div>
+      <p>Topology plays an increasingly important role in modern condensed matter physics. Insulators can now be classified by their topology similarly to how geometric shapes are classified. The more familiar topology of geometric shapes is determined by integrating a local property (geometric curvature) over the entire surface of the shape, thus yielding a global invariant that does not change even if the shape is modified (so long as one doesn’t poke a new hole through it). Topology for materials is similarly determined by integrating Berry curvature over the surface of a material’s Brillouin zone. The resulting global invariant is the Berry phase of the material (related to the “winding” number), which determines its topological classification. This classification is invariant to changes in the material’s Hamiltonian, so long as it doesn’t collapse to zero anywhere in the Brillouin zone (which is analogous to poking a hole in a geometric shape). If two materials with different topological classifications are fused at a boundary then the Hamiltonian must cross zero there, resulting in a conducting edge state.<sup>1</sup> This was first predicted by Kane and Mele in a 2D model of graphene that included spin-orbit coupling.<sup>2</sup>  Spin-orbit coupling is not strong enough to experimentally induce such behavior in graphene, but Bernevig, <i>et al.</i> recognized that HgTe quantum wells fulfill the conditions required by the Kane-Mele model for topological behavior. This was subsequently confirmed experimentally by Koenig, <i> et al.</i>, thus triggering an avalanche of research into topological insulators.</p>
       <p>The Crommie group is actively studying 2D topological insulators, also referred to as quantum spin Hall insulators (QSHIs). This name comes from the fact that spin-orbit coupling in a QSHI causes an electron traveling with spin-up to be deflected to one side, similar to how a B-field deflects moving charged particles. Quantization then leads to an edge-state circulating in one direction for the spin-up electrons, similar to how an applied B-field results in chiral edge-states in the quantum Hall effect.<sup>1-4</sup>  Spin-orbit coupling flips sign with spin polarization, and so electrons with spin-down deflect in the opposite direction and create an edge-state with opposite circulation and spin polarization. The helical edge-states of a QSHI thus exhibit spin-velocity locking <b>(Fig. 1d)</b></p>
-      <div class='spacing'></div>
       <p>In 2014 Qian, <i>et. al</i> <sup>5</sup> predicted that single-layer transition metal dichalcogenide (TMD) materials of the form 1T’-MX<sub>2</sub> are QSHIs when M = Mo, W, and X = S, Se, Te <b>(Fig. 1a)</b>. The origin of the effect is a crossing of bands (band inversion) induced by the 1T’ phase which causes this material to satisfy the Kane-Mele criteria for creating a 2D topological insulator <b>(Fig. 1b)</b>. This was predicted to lead to the formation of topologically-protected edge-states that exhibit spin velocity locking <b>(Figs 1c, d)</b>. This prediction was exciting because TMDs are stand-alone single-layer materials that can be fabricated via exfoliation, CVD, or molecular beam epitaxy (MBE) techniques, and they are ideal for device applications. Also, the expected energy gaps of TMDs are much larger than for HgTe quantum wells, and even exceed room temperature.</p>
+      <figure>
+        <img src="{{"/images/research/topological/top1.png" | prepend: site.baseurl}}" />
+        <div class='spacing'></div>
+        <figcaption style="display: table-caption">
+          <b>Fig. 1:  (a) </b>1T’ phase of a single-layer TMD material. <b>(b)-(c)</b> Band inversion for single-layer 1T’ TMD materials leads to quantum spin Hall effect. <b>(d)</b> Edge-states of quantum spin Hall insulator.
+        </figcaption>
+      </figure>
       <div class='spacing'></div>
       <p>Many groups around the world were inspired by ref. 5 to hunt for QSHI behavior in single-layer WTe<sub>2</sub> since this is the only single-layer topological TMD candidate whose ground state structure lies in the 1T’ phase.<sup>6-8</sup>  The Crommie group, in collaboration with Z. X. Shen and S. K. Mo, adopted a successful strategy of growing single layers of 1T’-WTe<sub>2</sub> on graphene-coated SiC substrates using molecular beam epitaxy (MBE).<sup>9</sup>  Growth and angle-resolved photoemission (ARPES) were performed by the Shen and Mo groups at the Advanced Light Source (ALS), and scanning tunneling microscopy (STM) was performed by the Crommie group at UC Berkeley. <b>Fig. 2a</b> shows the characteristic structure of 1T’-WTe<sub>2</sub> measured by the Crommie group. The striped pattern is characteristic of the “dimerized” 1T’ phase <b>(Fig. 1a)</b> and arises from zigzag rows of W atoms. STM spectroscopy (STS) performed in the middle of WTe<sub>2</sub> rows of W atoms <b>(Fig. 2b)</b>.  This is seen more clearly in the spectroscopic map of <b>Fig. 2d</b> which shows enhanced LDOS at the bulk gap energy near the island edge. This is the signature of a topologically-protected edge-state in 1T’-WTe<sub>2</sub>, precisely as predicted by Qian, <i> et al.</i> ARPES measurements also show inverted band structure <b>(Fig. 2c)</b>, consistent with the predictions of Qian, <i>et al.</i> and with the STM spectroscopy. The combination of 1T’ structure, bulk bandgap, edge-state, and inverted band structure together confirm the prediction that 1T’-WTe<sub>2</sub> is a QSHI.<sup>9</sup></p>
-      <div class='spacing'></div>
+      <figure>
       <img src="{{"/images/research/topological/top2.png" | prepend: site.baseurl}}"/>
       <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3><b>Fig. 2: (a)</b> STM image of QSHI single-layer 1T’-WTe<sub>2</sub>. <b>(b)</b> STM spectroscopy of edge vs. bulk of 1T’-WTe<sub>2</sub>. <b>(c)</b> STS of 1T’-WTe<sub>2</sub> over wider energy scale, with comparison to ARPES results. <b>(d)</b> STS spectroscopy map shows edge-state for 1T’-WTe<sub>2</sub>. (STM and STS: Crommie group; growth/ARPES: S.K. Mo, Z.X. Shen groups).</h3>
+      <figcaption style="display:table-caption">
+        <b>Fig. 2: (a)</b> STM image of QSHI single-layer 1T’-WTe<sub>2</sub>. <b>(b)</b> STM spectroscopy of edge vs. bulk of 1T’-WTe<sub>2</sub>. <b>(c)</b> STS of 1T’-WTe<sub>2</sub> over wider energy scale, with comparison to ARPES results. <b>(d)</b> STS spectroscopy map shows edge-state for 1T’-WTe<sub>2</sub>. (STM and STS: Crommie group; growth/ARPES: S.K. Mo, Z.X. Shen groups).
       </figcaption>
+      </figure>
       <div class='spacing'></div>
       <p>We have also explored topological behavior in single-layer WSe<sub>2</sub> to obtain a larger energy gap (for room temperature operation) and higher-quality edges.<sup>10</sup> The thermodynamic ground state of WSe<sub>2</sub> is the 1H phase, which is a trivial semiconductor with a 2 eV energy gap. However, it is possible to “trap” WSe<sub>2</sub> during growth in a metastable topological 1T’phase <b>(Fig. 3b)</b>. Mo and Shen’s groups were able to grow large-scale islands of mixed-phase WSe<sub>2</sub> Mo and Shen’s groups were able to grow large-scale islands of mixed-phase WSe<sub>2</sub><b>(Figs. 3, 4).</b></p>
-      <div class='spacing'></div>
-      <img src="{{"/images/research/topological/top3.png" | prepend: site.baseurl}}"/>
-      <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3><b>Fig. 4:  (a) </b> STM linescan across interface between 1H and 1T’ phases of single-layer WSe2. <b>(b)</b> STM image of 1H/1T’ phase boundary for single-layer WSe<sub>2</sub>. <b>(c)</b> dI/dV map visualizing topologically-protected edge-state of 1T’-WSe<sub>2</sub> quantum spin Hall insulator. <b>(d)</b> STM point spectroscopy obtained at bulk and edge points shown in (b).  (STM and STS: Crommie group; growth: S.K. Mo, Z.X. Shen groups).</h3>
+      <figure>
+      <img src="{{"/images/research/topological/top5.png" | prepend: site.baseurl}}"/>
+      <figcaption style="display:table-caption">
+        <b>Fig. 3:  (a) </b> STM topography of single-layer 1T'-WSe<sub>2</sub> <b>(b)</b> Mixed phase island of single-layer WSe<sub>2</sub> shows both 1T’ phase and 1H phase. <b>(c)</b> Large-scale STM image of mixed phase islands of WSe2. (STM and STS: Crommie group; growth: S.K. Mo, Z.X. Shen groups).
       </figcaption>
-      <div class='spacing'></div>
+      </figure>
       <p><b>Figs. 4a-c</b> show a zoom-in of one such interface characterized by the Crommie group. Because there is trivial material (the 1H phase) on one side of the interface and topological material (the 1T’ phase) on the other side of the interface, we expect this edge to host a topologically-protected edge-state. Such an edge-state is, indeed, observed as seen in the spectroscopy of <b> Fig. 4d</b>. Here an energy gap exists at V = -140 mV in the “bulk” of the topological region and a clear edge-state is seen at the topological phase boundary (the bulk gap sits below V = 0 due to n-doping of the sample). A sharp dip is seen at E<sub>F</sub> which is believed to be an effect of electron correlations (i.e., due to electron-electron interactions). The bulk energy gap of this material is 120 mV, which implies that topological behavior in this material should survive to room temperature.<sup>10</sup> We are interested in performing STM investigations of this type of topological material in gate-tunable field effect transistor (FET) configurations.</p>
-      <div class='spacing'></div>
+      <figure>
+      <img src="{{"/images/research/topological/top3.png" | prepend: site.baseurl}}"/>
+      <figcaption style="display:table-caption">
+        <b>Fig. 4:  (a) </b> STM linescan across interface between 1H and 1T’ phases of single-layer WSe2. <b>(b)</b> STM image of 1H/1T’ phase boundary for single-layer WSe<sub>2</sub>. <b>(c)</b> dI/dV map visualizing topologically-protected edge-state of 1T’-WSe<sub>2</sub> quantum spin Hall insulator. <b>(d)</b> STM point spectroscopy obtained at bulk and edge points shown in (b).  (STM and STS: Crommie group; growth: S.K. Mo, Z.X. Shen groups).
+      </figcaption>
+      </figure>
       <p>We have also demonstrated that it is possible to locally convert the structure of TMD single layers between topological and trivial phases using the tip of an STM. <b>Fig. 5</b> shows a topological 1T’-WSe<sub>2</sub> island whose interior has been partially converted to the trivial 1H phase. This causes topologically-protected edge-states (as shown in <b>Fig. 4</b>) to arise at the edges of the interior 1H region. This shows that it should be possible, in principle, to “write” topological edge-state “circuitry” into TMD single-layers via local phase engineering.</p>
-      <div class='spacing'></div>
+      <figure>
       <img src="{{"/images/research/topological/top4.png" | prepend: site.baseurl}}"/>
       <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3><b>Fig. 5:  (a) </b> 1T’-WSe<sub>2</sub> island before tip pulse. <b>(b)</b> Same island after STM tip pulse converts center WSe<sub>2</sub> region from topological 1T’ phase to trivial 1H phase.  (STM: Crommie group; growth: S.K. Mo, Z.X. Shen groups).</h3>
+      <figcaption style="display:table-caption">
+        <b>Fig. 5:  (a) </b> 1T’-WSe<sub>2</sub> island before tip pulse. <b>(b)</b> Same island after STM tip pulse converts center WSe<sub>2</sub> region from topological 1T’ phase to trivial 1H phase.  (STM: Crommie group; growth: S.K. Mo, Z.X. Shen groups).
       </figcaption>
-      <div class='spacing'></div>
+      </figure>
       <h2>References</h2>
       <p>1.  M. Z. Hasan and C. L. Kane, Colloquium: Topological insulator, Rev. Mod. Phys. 82, 3045 (2010).
       </p>

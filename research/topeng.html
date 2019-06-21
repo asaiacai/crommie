@@ -10,69 +10,71 @@ section_id: gnrhet
     <div class='large-12 columns'>
       {% include section-header.html title="Topological Engineering of GNRs" color="#000" %}
       <div class='spacing'></div>
-      <p>Graphene nanoribbons (GNRs) are thin strips of graphene that can have different nanoscale widths and edge symmetries (for more introductory material on GNRs look <a href={{"/research/gnrhet" | prepend: site.baseurl}}>here</a>). One of the most exciting developments in the study of GNRs has been the discovery of topological phases in armchair GNRs. Topological behavior in GNRs was first predicted by Steven Louie’s group.<sup>1</sup> One year later the predictions were confirmed by the Crommie group and collaborators.<sup>2</sup> Topology in GNRs is classified by a Z<sub>2</sub> index such that when Z<sub>2</sub> = 0 GNRs are topologically trivial and when Z<sub>2</sub> = 1 GNRs are are topologically nontrivial. What makes this important is that if a trivial GNR (Z<sub>2</sub> = 0) is fused to a “topologically nontrivial” GNR (Z<sub>2</sub> = 1) then a topologically-protected interface state holding a single unpaired electron forms at the boundary between the two GNR segments. This is analogous to the 2D metallic surface states that form at the surface of 3D topological insulators and the 1D metallic edge-states that form at the edges of 2D quantum spin Hall insulators.<sup>3,4</sup> Since GNRs are 1D topological insulators the protected states at their interfaces can be thought of as 0D metals (i.e., localized states occupied by a single, unpaired electron).</p>
-      <p>This provides a completely new design criteria for engineering the quantum behavior of GNRs since it provides a roadmap for positioning unpaired electrons at any location we designate within a GNR, so long as it contains an interface between segments of differing topology.<sup>1</sup> This can be used, for example, to create qubits <b>(Fig. 1a)</b>, quantum spin chains <b>(Fig. 1b)</b>, and new 1D band structures<sup>2</sup> <b>(Fig. 1c)</b>. The Crommie group is currently pursuing all of these directions.</p>
-      <div class='spacing'></div>
+      <p>Graphene nanoribbons (GNRs) are thin strips of graphene that can have different nanoscale widths and edge symmetries (for more introductory material on GNRs look <a href={{"/research/gnrhet" | prepend: site.baseurl}}>here</a>). One of the most exciting developments in the study of GNRs has been the discovery of topological phases in armchair GNRs. Topological behavior in GNRs was first predicted by Steven Louie’s group.<sup>1</sup> One year later the predictions were confirmed by the Crommie group and collaborators.<sup>2</sup> Topology in GNRs is classified by a Z<sub>2</sub> index such that when Z<sub>2</sub> = 0 GNRs are topologically trivial and when Z<sub>2</sub> = 1 GNRs are are topologically nontrivial. What makes this important is that if a trivial GNR (Z<sub>2</sub> = 0) is fused to a “topologically nontrivial” GNR (Z<sub>2</sub> = 1) then a topologically-protected interface state holding a single unpaired electron forms at the boundary between the two GNR segments <b>(Fig. 1)</b>. This is analogous to the 2D metallic surface states that form at the surface of 3D topological insulators and the 1D metallic edge-states that form at the edges of 2D quantum spin Hall insulators.<sup>3,4</sup> Since GNRs are 1D topological insulators the protected states at their interfaces can be thought of as 0D metals (i.e., localized states occupied by a single, unpaired electron).</p>
+      <figure>
+      <img src="{{"/images/research/topeng/topeng9.png" | prepend: site.baseurl}}"  align="middle">
+      <figcaption style="display:table-caption">
+        <b>Fig. 1</b>: Schematic representation of a topologically-protected interface state at the boundary of two graphene nanoribbon segments of differing topology.
+      </figcaption>
+      </figure>
+      <p>This provides a completely new design criteria for engineering the quantum behavior of GNRs since it provides a roadmap for positioning unpaired electrons at any location we designate within a GNR, so long as it contains an interface between segments of differing topology.<sup>1</sup> This can be used, for example, to create qubits <b>(Fig. 2a)</b>, quantum spin chains <b>(Fig. 2b)</b>, and new 1D band structures<sup>2</sup> <b>(Fig. 2c)</b>. The Crommie group is currently pursuing all of these directions.</p>
+      <figure>
       <img src="{{"/images/research/topeng/topeng1.png" | prepend: site.baseurl}}"  align="middle">
-      <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3>Fig. 1: Schematic representation of strategy for creating different electronic and magnetic GNR groundstates using new topological ideas that allow insertion of unpaired electrons at interfaces between different topological phases. This provides a new technique for fabricating qubit systems, 1D magnetic chains, and designer 1D bandstructures.</h3>
+      <figcaption style="display:table-caption">
+        <b>Fig. 2</b>: Schematic representation of strategy for creating different electronic and magnetic GNR groundstates using new topological ideas that allow insertion of unpaired electrons at interfaces between different topological phases. This provides a new technique for fabricating qubit systems, 1D magnetic chains, and designer 1D bandstructures.
       </figcaption>
-      <div class='spacing'></div>
-      <p>The origin of topology in GNRs is the quantization of the Berry phase.<sup>1</sup> The Berry phase in a 1D system is calculated by integrating the Berry connection across the first Brillouin zone. If the 1D system has spatial symmetry (e.g., inversion or mirror) then the Berry phase is constrained to be either 0 or π. For a multiband system one simply adds the Berry phase for each band, so that the total Berry phase is <i>nπ</i> (where <i>n</i> is an integer). If <i>n</i> is even then Z<sub>2</sub> = 0 (topologically trivial) while if <i>n</i> is odd then Z<sub>2</sub> = 1 (topologically nontrivial). This leads to a simple set of topology rules for armchair nanoribbons as derived by Louie’s group<sup>1</sup> <b>(Fig. 2)</b></p>
-      <div class='spacing'></div>
+      </figure>
+      <p>The origin of topology in GNRs is the quantization of the Berry phase.<sup>1</sup> The Berry phase in a 1D system is calculated by integrating the Berry connection across the first Brillouin zone. If the 1D system has spatial symmetry (e.g., inversion or mirror) then the Berry phase is constrained to be either 0 or π. For a multiband system one simply adds the Berry phase for each band, so that the total Berry phase is <i>nπ</i> (where <i>n</i> is an integer). If <i>n</i> is even then Z<sub>2</sub> = 0 (topologically trivial) while if <i>n</i> is odd then Z<sub>2</sub> = 1 (topologically nontrivial). This leads to a simple set of topology rules for armchair nanoribbons as derived by Louie’s group<sup>1</sup> <b>(Fig. 3)</b></p>
+      <figure>
       <img src="{{"/images/research/topeng/topeng2.png" | prepend: site.baseurl}}"  align="middle">
-      <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3>Fig. 2:  Table shows rules for determining armchair GNR topology depending on width and unit cell, derived by Cao, Zhao, and Louie.</h3>
+      <figcaption style="display:table-caption">
+        <b>Fig. 3</b>:  Table shows rules for determining armchair GNR topology depending on width and unit cell, derived by Cao, Zhao, and Louie.
       </figcaption>
-      <div class='spacing'></div>
-      <p>An example of a predicted topological interface can be seen in <b>Fig. 3</b> 4 which shows a topologically trivial N = 7 segment (i.e., 7 atoms wide) fused to a topologically nontrivial N = 9 segment (9 atoms wide). Because the two segments have different topological indices, a topologically-protected state is predicted to exist at the interface between these segments. The shaded region in <b>Fig. 4</b> shows the calculated spatial extent of the resulting interface state wavefunction (theory: S.G. Louie and coworkers).
-      <div class='spacing'></div>
+      </figure>
+      <p>An example of a predicted topological interface can be seen in <b>Fig. 3</b> 4 which shows a topologically trivial N = 7 segment (i.e., 7 atoms wide) fused to a topologically nontrivial N = 9 segment (9 atoms wide). Because the two segments have different topological indices, a topologically-protected state is predicted to exist at the interface between these segments. The shaded region in <b>Fig. 4</b> shows the calculated spatial extent of the resulting interface state wavefunction (theory: S.G. Louie and coworkers).</p>
+      <figure>
       <img src="{{"/images/research/topeng/topeng3.png" | prepend: site.baseurl}}"  align="middle">
-      <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3>Fig. 3:  Topological interface state example:  Wavefunction is shown for topologically protected interface state predicted to exist at interface between N=7 GNR and N=9 GNR.</h3>
+      <figcaption style="display:table-caption">
+        <b>Fig. 4</b>:  Topological interface state example:  Wavefunction is shown for topologically protected interface state predicted to exist at interface between N=7 GNR and N=9 GNR.
       </figcaption>
-      <div class='spacing'></div>
-      <p>Constructing such an interface experimentally, however, is quite tricky since it has to be synthesized with atomic precision. <b>Fig. 4</b>  shows a strategy for accomplishing this via a linker molecule designed to link up with N = 7 precursors on one side and N = 9 precursors on the other side<sup>2</sup> (this “7-9 linker” molecule was designed and fabricated by Greg Veber of F. Fischer’s group). Rather than making just a single topological interface, the 7-9 linker can also be used to make a topological superlattice via self-polymerization <b>(Fig. 5a, b)</b>. This results in a structure <b>(Fig. 5c)</b> that is composed of a sequence of GNR segments having an alternating topological index. The rules of topology then demand that a topologically-protected interface state should exist at the interfaces between each GNR segment in this superlattice.</p>
-      <div class='spacing'></div>
+      </figure>
+      <p>Constructing such an interface experimentally, however, is quite tricky since it has to be synthesized with atomic precision. <b>Fig. 5</b>  shows a strategy for accomplishing this via a linker molecule designed to link up with N = 7 precursors on one side and N = 9 precursors on the other side<sup>2</sup> (this “7-9 linker” molecule was designed and fabricated by Greg Veber of F. Fischer’s group). Rather than making just a single topological interface, the 7-9 linker can also be</p>
+      <figure>
       <img src="{{"/images/research/topeng/topeng4.png" | prepend: site.baseurl}}"  align="middle">
       <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3>Fig. 4:  (a) Precursor molecule for topologically trivial N=7 GNR segment.  (b) Precursor molecule to link N=7 and N=9 segments (7-9 linker).  (c) Precursor molecule to create topologically non-trivial N=9 segment.  (d) Expected topological GNR heterojunction formed through self-assembly of molecules in (a)-(c).</h3>
+      <figcaption style="display:table-caption">
+        Fig. 5:  (a) Precursor molecule for topologically trivial N=7 GNR segment.  (b) Precursor molecule to link N=7 and N=9 segments (7-9 linker).  (c) Precursor molecule to create topologically non-trivial N=9 segment.  (d) Expected topological GNR heterojunction formed through self-assembly of molecules in (a)-(c).
       </figcaption>
-      <div class='spacing'></div>
-      <p>The Crommie group self-polymerized the 7-9 linker at the surface of a gold crystal and succeeded in growing a well-defined topological superlattice.<sup>2</sup> The bond-resolved STM image shown in <b>Fig. 6b</b> shows that the 7-9 topological superlattice has the proper chemical structure.</p>
-      <div class='spacing'></div>
+      </figure>
+      <p>used to make a topological superlattice via self-polymerization <b>(Fig. 6a, b)</b>. This results in a structure <b>(Fig. 6c)</b> that is composed of a sequence of GNR segments having an alternating topological index. The rules of topology then demand that a topologically-protected interface state should exist at the interfaces between each GNR segment in this superlattice.</p>
+      <figure>
       <img src="{{"/images/research/topeng/topeng5.png" | prepend: site.baseurl }}"  align="middle">
-      <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3>Fig. 5:  (a) 7-9 linker molecule for creating topological GNR interfaces.  (b) Polymer formed by self-polymerizing 7-9 linker molecules.  (c) Topological superlattice formed after final cyclodehydrogenation of 7-9 polymer in (b).  The resulting superlattice is made of N=7 and N=9 GNR segments of differing topology, thus resulting in interface states at the boundaries between segments.</h3>
+      <figcaption style="display:table-caption">
+        <b>Fig. 5:  (a)</b> 7-9 linker molecule for creating topological GNR interfaces.  <b>(b)</b> Polymer formed by self-polymerizing 7-9 linker molecules.  <b>(c)</b> Topological superlattice formed after final cyclodehydrogenation of 7-9 polymer in <b>(b)</b>.  The resulting superlattice is made of N=7 and N=9 GNR segments of differing topology, thus resulting in interface states at the boundaries between segments.
       </figcaption>
-      <div class='spacing'></div>
+      </figure>
+      <p>The Crommie group self-polymerized the 7-9 linker at the surface of a gold crystal and succeeded in growing a well-defined topological superlattice.<sup>2</sup> The bond-resolved STM image shown in <b>Fig. 7b</b> shows that the 7-9 topological superlattice has the proper chemical structure.</p>
+      <figure>
       <img src="{{"/images/research/topeng/topeng6.png" | prepend: site.baseurl }}"  align="middle">
-      <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3>Fig. 6:  (a) Schematic representation of topological GNR superlattice formed by self-polymerizing the 7-9 linker molecule.  (b) Bond-resolved STM image of topological GNR superlattice grown on Au(111) (STM imaging done by Crommie group; precursor synthesis by Fischer group).</h3>
+      <figcaption style="display:table-caption">
+        <b>Fig. 7:  (a)</b> Schematic representation of topological GNR superlattice formed by self-polymerizing the 7-9 linker molecule.  <b>(b)</b> Bond-resolved STM image of topological GNR superlattice grown on Au(111) (STM imaging done by Crommie group; precursor synthesis by Fischer group).
       </figcaption>
-      <div class='spacing'></div>
-      <p><b>Fig. 7</b> shows an STM image of the 7-9 topological superlattice where the different segments can be clearly resolved.  STM spectroscopy performed on the 7-9 superlattice has confirmed its topological behavior.</p>
-      <div class='spacing'></div>
+      </figure>
+       <p><b>Fig. 8</b> shows an STM image of the 7-9 topological superlattice where the different segments can be clearly resolved.  STM spectroscopy performed on the 7-9 superlattice has confirmed its topological behavior.</p>
+      <figure>
       <img src="{{"/images/research/topeng/topeng7.png" | prepend: site.baseurl }}"  align="middle">
-      <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3>Fig. 7:  STM image of topological GNR superlattice grown on Au(111). N=7 and N=9 segments can clearly be distinguished. (STM imaging done by Crommie group; precursor synthesis by Fischer group).</h3>
+      <figcaption style="display:table-caption">
+        <b>Fig. 8</b>:  STM image of topological GNR superlattice grown on Au(111). N=7 and N=9 segments can clearly be distinguished. (STM imaging done by Crommie group; precursor synthesis by Fischer group).
       </figcaption>
-      <div class='spacing'></div>
-      <p>The STM <i>dI/dV</i> spectra of <b>Fig. 8a</b> show a series of peaks bracketing the Fermi energy (V = 0). The energy difference between peaks B and C show that the superlattice energy gap is just 0.7 eV, significantly less than the 2.3 eV energy gap of a uniform N = 7 GNR or the 1.4 eV of a uniform N = 9 GNR. <i>dI/dV</i> maps measured at peaks A-C reveal the wavefunction distribution of the electrons that reside in these topological states <b>(Fig. 8c)</b>.  The wavefunction patterns are quite distinct and the intensity alternates between N = 7 and N = 9 segments.  Theoretical simulations of both the GNR density of states <b>(Fig. 8b)</b> and the local density of states <b>(Fig. 8d)</b> performed by Louie’s group closely match the data obtained by the Crommie group <b>(Figs. 9a, c)</b>.  The most important features are the two peaks marked B and C. These are the states that normally would not occur in either an N = 7 or an N = 9 GNR. They arise completely from topological considerations. The fact that these peaks and their associated wavefunctions match so well between theory and experiment confirms the topological nature of armchair graphene nanoribbons.<sup>2</sup></p>
-      <div class='spacing'></div>
+      </figure>
+      <p>The STM <i>dI/dV</i> spectra of <b>Fig. 9a</b> show a series of peaks bracketing the Fermi energy (V = 0). The energy difference between peaks B and C show that the superlattice energy gap is just 0.7 eV, significantly less than the 2.3 eV energy gap of a uniform N = 7 GNR or the 1.4 eV of a uniform N = 9 GNR. <i>dI/dV</i> maps measured at peaks A-C reveal the wavefunction distribution of the electrons that reside in these topological states <b>(Fig. 9c)</b>.  The wavefunction patterns are quite distinct and the intensity alternates between N = 7 and N = 9 segments.  Theoretical simulations of both the GNR density of states <b>(Fig. 9b)</b> and the local density of states <b>(Fig. 9d)</b> performed by Louie’s group closely match the data obtained by the Crommie group <b>(Figs. 9a, c)</b>.  The most important features are the two peaks marked B and C. These are the states that normally would not occur in either an N = 7 or an N = 9 GNR. They arise completely from topological considerations. The fact that these peaks and their associated wavefunctions match so well between theory and experiment confirms the topological nature of armchair graphene nanoribbons.<sup>2</sup></p>
+      <figure>
       <img src="{{"/images/research/topeng/topeng8.png" | prepend: site.baseurl }}"  align="middle">
       <div class='spacing'></div>
-      <figcaption align="middle">
-        <h3>Fig. 9:  (a) Experimental STM dI/dV spectra obtained on a 7-9 topological GNR superlattice.  (b) Theoretical density of states calculated for an isolated 7-9 topological GNR superlattice (compare to (a)).  (c) Experimental dI/dV maps obtained at energies marked A-D in (a).  (d) Theoretical wavefunction distributions (local density of states) at energies marked A-D in (b) (compare to (c)).</h3>
+      <figcaption style="display:table-caption">
+        <b>Fig. 9:  (a)</b> Experimental STM dI/dV spectra obtained on a 7-9 topological GNR superlattice.  <b>(b)</b> Theoretical density of states calculated for an isolated 7-9 topological GNR superlattice (compare to <b>(a)</b>).  <b>(c)</b> Experimental dI/dV maps obtained at energies marked A-D in <b>(a)</b>.  <b>(d)</b> Theoretical wavefunction distributions (local density of states) at energies marked A-D in <b>(b)</b> (compare to <b>(c)</b>).
       </figcaption>
-      <div class='spacing'></div>
+      </figure>
       <h2>References</h2>
       <p>1.  Ting Cao, Fangzhou Zhao, and Steven G. Louie. Topological Phases in Graphene Nanoribbons: Junction States, Spin Centers, and Quantum Spin Chains. Phys. Rev. Lett. 119, 076401 (2017).</p>
       <p>2. D. J. Rizzo, G. Veber, T. Cao, C. Bronner, T. Chen, F. Zhao, H. Rodriguez, S. G. Louie1, M. F. Crommie, F. R. Fischer. Topological Band Engineering of Graphene Nanoribbons. Nature 560, 204 (2018)</p>
