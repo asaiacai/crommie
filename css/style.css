@@ -1062,6 +1062,8 @@ figcaption {
     background: #fff;
     padding: 0 5px 5px;
     top:100%;
+    color: #000000;
+    font-size: 0.9em
 }​
 
 /*Pager */

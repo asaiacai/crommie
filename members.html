@@ -2,6 +2,116 @@
 layout: default
 title: Members
 section_id: about
+
+pdocs:
+  - title: Arash A. Omrani
+  - title: Jairo Velasco Jr. (UCSC)
+  - title: Danny Haberer (UC Berkeley) 
+  - title: Miguel Moreno Ugeda (nanoGUNE)
+  - title: Jiong Lu (NUS)
+  - title: Peigen Cao (ASML Brion, Santa Clara)
+  - title: Alexander Riss (Institute of Applied Physics, Vienna University of Technology, Austria)
+  - title: Dimas de Oteyza (San Sebastian, Spain)
+  - title: Chenggang Tao (Virginia Tech, cgtao{at}vt{dot}edu)
+  - title: Regis Decker (University of Hamburg, Germany)
+  - title: Sarah Burke (University of British Columbia)
+  - title: Yuanbo Zhang (Fudan University)
+  - title: Daniel Wegner (Münster University)
+  - title: Luis Berbil-Bautista
+  - title: Yayu Wang (Tsinghua University)
+  - title: Yossi Yayon (Landa Labs)
+  - title: Armen Kirakosian (Western Digital)
+  - title: Andre Wachowiak (Technical University Dresden)
+  - title: Katsumi Nagaoka (NIMS)
+
+grads:
+  - title: Juwon Lee 
+  - title: Dillon Wong (Princeton University, Ali Yazdani Lab) 
+  - title: Kacey Meaker (Randolph College) 
+  - title: Giang Nguyen (Oak Ridge National Lab) 
+  - title: Aaron Bradley (Stitch Fix) 
+  - title: Sebastian Wickenburg (Alex Weber-Bargioni Group at the Molecular Foundry)
+  - title: Yang Wang (Adobe)
+  - title: Ivan Pechenezhskiy (University of Wisconsin–Madison, pechenezhski{at}wisc{dot}edu)
+  - title: Yen-Chia Chen (Intel)
+  - title: Xiaowei Zhang (Hitachi)
+  - title: Victor Brar (California Institute of Technology)
+  - title: Chuck Sleasman
+  - title: Jongweon Cho (California Institute of Technology)
+  - title: Niv Levy (Brookhaven)
+  - title: Ryan Yamachika (LBNL)
+  - title: Matt Comstock (Michigan State University)
+  - title: Xinghua Lu (State Key Laboratory for Surface Physics - Institute of Physics, Chinese Academy of Sciences)
+  - title: Mike Grobis (Hitachi)
+  - title: Tiberiu Jamneala (Avago)
+  - title: Vidya Madhavan (Boston College)
+  - title: Wei Chen (Apple)
+
+ra:
+  - title: Yun Zhou 
+  - title: Irene Rodriguez 
+  - title: Won-Woo Choi 
+  - title: Jakob Jørgensen 
+  - title: Wei Ruan
+  - title: Hannes Böckmann (RWTH Aachen)
+  - title: Erik Piatti
+  - title: Sajjad Tollabimazraehno
+  - title: Sergio Pezzini
+  - title: Sulthan Halifa Rashid
+  - title: Brandon Giles (Ohio State University)
+  - title: Wu Qiong (Fudan University)
+  - title: Melissa Panlasigui (Manhattan School of Music)
+  - title: Aaron Hammack
+
+ugrad:
+  - title: Arun Aditya 
+  - title: Patrick Forrester 
+  - title: Nicholas Werby 
+  - title: Myungjin Jung 
+  - title: Joe Costello 
+  - title: Tao Zhao
+  - title: Jin Chen 
+  - title: Yi-Shiou Duh 
+  - title: Griffin Fischer Rodgers 
+  - title: Nick Kau 
+  - title: Abigail Iturra 
+  - title: Sumita Ghosh
+  - title: Su-Ann Chong 
+  - title: Youngkyou Kim 
+  - title: Remy Delva 
+  - title: Chad Germany (UIUC) 
+  - title: Han Sae Jung 
+  - title: Hoil Kim 
+  - title: Dhruv Desai
+  - title: HUONG-NAM THI TRUONG 
+  - title: Ramin Khajeh
+  - title: Sifan Wang 
+  - title: Mandy Huo
+  - title: Eugene Valassakis 
+  - title: Adam Cole Gotlin 
+  - title: Alexander Fong 
+  - title: Tae Sik Nam 
+  - title: Torben Umeda 
+  - title: Erica Kotta 
+  - title: Clovis Weisbart 
+  - title: Edgar Olivera 
+  - title: Zaw Htet 
+  - title: Ryan Johnson
+  - title: Drew Edelberg (Columbia)
+  - title: Changmin Lee (MIT)
+  - title: Travis Zack (Harvard University)
+  - title: Kunal Sahasrabuddhe (Stanford University)
+  - title: Stephen Sharma (UC Berkeley)
+  - title: Daniel Weingarten (University of Colorado at Boulder)
+  - title: Lorenzo Flores
+  - title: Felix Wang
+  - title: Yuri Zuev (Columbia University)
+  - title: Annie Endozo
+  - title: Eric Samulon (Fisher Group, Stanford University)
+  - title: Hadrian Knotz (Awschalom Group, UCSB)
+  - title: Alex Khajetoorians (Shih Group, UT Austin)
+  - title: Nate Jenkins
+  - title: Nate Brown
 ---
 
 <div class='full parallax' style='background-image: url({{ "/images/crommieparty.png" | prepend: site.baseurl}}); color: #fff;'>
@@ -41,5 +151,28 @@ section_id: about
         </div>
       </div>
     {% endfor %}
+  </div>
+  <div class='row'>
+    <h2>Former Members</h2>
+    <h3>Post-Docs</h3>
+    {% for pdoc in page.pdocs %}
+    <p style="margin:0">{{pdoc.title}}</p>
+    {% endfor %}
+    <div class="one spacing"></div>
+    <h3>Graduate Students</h3>
+    {% for pdoc in page.grads %}
+    <p style="margin:0">{{pdoc.title}}</p>
+    {% endfor %}
+    <div class="one spacing"></div>
+    <h3>Research Asssistants</h3>
+    {% for pdoc in page.ra %}
+    <p style="margin:0">{{pdoc.title}}</p>
+    {% endfor %}
+    <div class="one spacing"></div>
+    <h3>Undergraduates</h3>
+    {% for pdoc in page.ugrad %}
+    <p style="margin:0">{{pdoc.title}}</p>
+    {% endfor %}
+    <div class="one spacing"></div>
   </div>
 </div>

@@ -1,3 +1,21 @@
+-   title: Topological Band Engineering of Graphene Nanoribbons
+    desc: "Here we present the rational design and experimental realization of a topologically engineered GNR superlattice that hosts a one-dimensional array of such states, thus generating otherwise inaccessible electronic structures. This strategy also enables new end states to be engineered directly into the termini of the one-dimensional GNR superlattice. Atomically precise topological GNR superlattices were synthesized from molecular precursors on a gold surface, Au(111), under ultrahigh-vacuum conditions and characterized by low-temperature scanning tunnelling microscopy and spectroscopy. Our experimental results and first-principles calculations reveal that the frontier band structure (the bands bracketing filled and empty states) of these GNR superlattices is defined purely by the coupling between adjacent topological interface states. This manifestation of non-trivial one-dimensional topological phases presents a route to band engineering in one-dimensional materials based on precise control of their electronic topology, and is a promising platform for studies of one-dimensional quantum spin physics."
+    img: /images/highlights/top.png
+    url: "https://www.nature.com/articles/s41586-018-0376-8"
+    id: top
+
+-   title: Local Electronic Structure of Molecular Heterojunctions in a Single-Layer 2D Covalent Organic Framework
+    desc: "The synthesis of a single-layer covalent organic framework (COF) with spatially modulated internal potentials provides new opportunities for manipulating the electronic structure of molecularly defined materials. Here, the fabrication and electronic characterization of COF-420: a single-layer porphyrin-based square-lattice COF containing a periodic array of oriented, type II electronic heterojunctions is reported. In contrast to previous donor-acceptor COFs, COF-420 is constructed from building blocks that yield identical cores upon reticulation, but that are bridged by electrically asymmetric linkers supporting oriented electronic dipoles. Scanning tunneling spectroscopy reveals staggered gap (type II) band alignment between adjacent molecular cores in COF-420, in agreement with first-principles calculations. Hirshfeld charge analysis indicates that dipole fields from oriented imine linkages within COF-420 are the main cause of the staggered electronic structure in this square grid of atomically-precise heterojunctions"
+    img: /images/highlights/cof.png
+    url: "https://onlinelibrary-wiley-com.libproxy.berkeley.edu/doi/pdf/10.1002/adma.201805941"
+    id: cof
+
+-   title: "Atom by Atom, Bond by Bond, a Chemical Reaction Caught in the Act"
+    desc: "To really see what was happening at the single-atom level we had to use a uniquely sensitive atomic force microscope in Michael Crommie’s laboratory... Nobody has ever taken direct, single-bond-resolved images of individual molecules, right before and immediately after a complex organic reaction."
+    img: /images/highlights/reactant-molecule.jpg
+    url: "https://newscenter.lbl.gov/2013/05/30/atom-by-atom/"
+    id: chem-react
+
 -   title: "From the Bottom Up: Manipulating Nanoribbons at the Molecular Level"
     desc: "Previously, scientists made nanoribbons that have a constant width throughout. “That makes for a nice wire or a simple switching element,” says Crommie, “but it does not provide a lot of functionality. We wanted to see if we could change the width within a single nanoribbon, controlling the structure inside the nanoribbon at the atomic scale to give it new behavior that is potentially useful.” -LBL Newscenter"
     img: /images/highlights/pub1.png
@@ -10,11 +28,11 @@
     url: "https://newscenter.lbl.gov/2015/12/21/2d-islands-in-graphene/"
     id: islands
 
--   title: "Defects Through the Looking Glass"
-    desc: "Normally, STM is used to study conductors and cannot be used to study bulk insulators, since electrical current does not typically flow through an insulator. We overcame this obstacle by capping the h-BN with a single sheet of graphene. This permits us to visualize the charged defects embedded in the underlying BN crystal. Essentially, we use graphene as a window to look into the insulator"
-    img: /images/highlights/pub3.jpeg
-    url: "https://newscenter.lbl.gov/2015/09/02/defects-through-the-looking-glass/"
-    id: defects
+-   title: "Long Predicted Atomic Collapse State Observed in Graphene"
+    desc: "The first experimental observation of a quantum mechanical phenomenon that was predicted nearly 70 years ago holds important implications for the future of graphene-based electronic devices. Working with microscopic artificial atomic nuclei fabricated on graphene, we have imaged the “atomic collapse” states theorized to occur around super-large atomic nuclei."
+    img: /images/highlights/atomcollapse.jpg
+    url: "https://newscenter.lbl.gov/2013/03/07/atomic-collapse-graphene/"
+    id: atomcollapse
 
 -   title: "Lighting the Way to Graphene-based Devices"
     desc: "We’ve demonstrated that visible light can induce a robust writing and erasing of charge-doping in GBN heterostructures without sacrificing high carrier mobility. he use of visible light gives us incredible flexibility and, unlike electrostatic gating and chemical doping, does not require multi-step fabrication processes that reduce sample quality. Additionally, different patterns can be imparted and erased at will, which was not possible with doping techniques previously used on GBN heterostructures."
@@ -22,26 +40,8 @@
     url: "https://newscenter.lbl.gov/2014/05/16/lighting-the-way-to-gbn-devices/"
     id: doped-gbn
 
--   title: "Long Predicted Atomic Collapse State Observed in Graphene"
-    desc: "The first experimental observation of a quantum mechanical phenomenon that was predicted nearly 70 years ago holds important implications for the future of graphene-based electronic devices. Working with microscopic artificial atomic nuclei fabricated on graphene, we have imaged the “atomic collapse” states theorized to occur around super-large atomic nuclei."
-    img: /images/highlights/atomcollapse.jpg
-    url: "https://newscenter.lbl.gov/2013/03/07/atomic-collapse-graphene/"
-    id: atomcollapse
-
--   title: "Atom by Atom, Bond by Bond, a Chemical Reaction Caught in the Act"
-    desc: "To really see what was happening at the single-atom level we had to use a uniquely sensitive atomic force microscope in Michael Crommie’s laboratory... Nobody has ever taken direct, single-bond-resolved images of individual molecules, right before and immediately after a complex organic reaction."
-    img: /images/highlights/reactant-molecule.jpg
-    url: "https://newscenter.lbl.gov/2013/05/30/atom-by-atom/"
-    id: chem-react
-
--   title: Local Electronic Structure of Molecular Heterojunctions in a Single-Layer 2D Covalent Organic Framework
-    desc: "The synthesis of a single-layer covalent organic framework (COF) with spatially modulated internal potentials provides new opportunities for manipulating the electronic structure of molecularly defined materials. Here, the fabrication and electronic characterization of COF-420: a single-layer porphyrin-based square-lattice COF containing a periodic array of oriented, type II electronic heterojunctions is reported. In contrast to previous donor-acceptor COFs, COF-420 is constructed from building blocks that yield identical cores upon reticulation, but that are bridged by electrically asymmetric linkers supporting oriented electronic dipoles. Scanning tunneling spectroscopy reveals staggered gap (type II) band alignment between adjacent molecular cores in COF-420, in agreement with first-principles calculations. Hirshfeld charge analysis indicates that dipole fields from oriented imine linkages within COF-420 are the main cause of the staggered electronic structure in this square grid of atomically-precise heterojunctions"
-    img: /images/highlights/cof.png
-    url: "https://onlinelibrary-wiley-com.libproxy.berkeley.edu/doi/pdf/10.1002/adma.201805941"
-    id: cof
-
--   title: Topological Band Engineering of Graphene Nanoribbons
-    desc: "Here we present the rational design and experimental realization of a topologically engineered GNR superlattice that hosts a one-dimensional array of such states, thus generating otherwise inaccessible electronic structures. This strategy also enables new end states to be engineered directly into the termini of the one-dimensional GNR superlattice. Atomically precise topological GNR superlattices were synthesized from molecular precursors on a gold surface, Au(111), under ultrahigh-vacuum conditions and characterized by low-temperature scanning tunnelling microscopy and spectroscopy. Our experimental results and first-principles calculations reveal that the frontier band structure (the bands bracketing filled and empty states) of these GNR superlattices is defined purely by the coupling between adjacent topological interface states. This manifestation of non-trivial one-dimensional topological phases presents a route to band engineering in one-dimensional materials based on precise control of their electronic topology, and is a promising platform for studies of one-dimensional quantum spin physics."
-    img: /images/highlights/top.png
-    url: "https://www.nature.com/articles/s41586-018-0376-8"
-    id: top
+-   title: "Defects Through the Looking Glass"
+    desc: "Normally, STM is used to study conductors and cannot be used to study bulk insulators, since electrical current does not typically flow through an insulator. We overcame this obstacle by capping the h-BN with a single sheet of graphene. This permits us to visualize the charged defects embedded in the underlying BN crystal. Essentially, we use graphene as a window to look into the insulator"
+    img: /images/highlights/pub3.jpeg
+    url: "https://newscenter.lbl.gov/2015/09/02/defects-through-the-looking-glass/"
+    id: defects
