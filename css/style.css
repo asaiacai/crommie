@@ -1066,6 +1066,18 @@ figcaption {
     font-size: 0.9em
 }​
 
+table {
+  border: solid 1px #ffffff;
+}
+
+td {
+  background-color: #003262 
+}
+
+td:hover {
+  background-color: #3b7ea1
+}
+
 /*Pager */
 .pager {
   width: 97%;
