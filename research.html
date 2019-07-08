@@ -16,17 +16,21 @@ services:
     img: /images/topbot.png
     url: /research/syngnr
 
-  - title: Covalent Organic Frameworks
-    url: /research/cof
-    img: /images/cof.png
+  - title: CDWs and Superconducvitity in 2D Materials
+    img: /images/cdw.png
+    url: /research/cdw
+
+  - title: 2D Mott Insulator
+    url: /research/mott
+    img: /images/mott.png
 
   - title: Twisted Bilayer Graphene
     url: /research/tlbg
     img: /images/tlbg.png
 
-  - title: 2D Mott Insulator
-    url: /research/mott
-    img: /images/mott.png
+  - title: Covalent Organic Frameworks
+    url: /research/cof
+    img: /images/cof.png
 
   - title: Nanomachines and Molecular Imaging
     url: /research/nanomach
@@ -48,7 +52,7 @@ services:
   <div class="row">
     <table style="width:100%">
     {% for service in page.services %}
-    {% if forloop.index == 5 %}
+    {% if forloop.index == 6 %}
     <tr>
     {% endif %}
     <td align="center">
@@ -56,10 +60,10 @@ services:
         <a href="{{service.url | prepend: site.baseurl}}">{{service.title}}</a>
       </figcaption>
       <a href="{{service.url | prepend: site.baseurl}}">
-      <img src="{{service.img | prepend: site.baseurl}}"/ style="height: 144px;width:auto;display: block; margin: 0 auto;">
+      <img src="{{service.img | prepend: site.baseurl}}"/ style="max-height: 155px;display: block; margin: 0 auto;">
       </a>
     </td>
-    {% if forloop.index == 4 %}
+    {% if forloop.index == 5 %}
     </tr>
     {% endif %}
     {% endfor %}

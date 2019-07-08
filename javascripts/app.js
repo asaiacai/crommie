@@ -230,7 +230,8 @@ jQuery(document).foundation();
 
       $('.images', $ctx).slick({
         autoplay: true,
-        pauseOnHover: false,
+        pauseOnHover: true,
+        phaseThreshold: 3000,
         dots: true,
         speed: 1500,
         arrows: false
@@ -252,7 +253,8 @@ jQuery(document).foundation();
 
       $('.slides', $ctx).slick({
         autoplay: true,
-        pauseOnHover: false,
+        pauseOnHover: true,
+        phaseThreshold: 3000,
         dots: true,
         speed: 1500,
         arrows: false
@@ -278,7 +280,8 @@ jQuery(document).foundation();
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
-        pauseOnHover: false,
+        pauseOnHover: true,
+        phaseThreshold: 3000,
         responsive: [
           {
             breakpoint: 1024,
@@ -331,7 +334,7 @@ jQuery(document).foundation();
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-        pauseOnHover: false,
+        pauseOnHover: true,
         responsive: [
           {
             breakpoint: 767,
@@ -369,6 +372,8 @@ jQuery(document).foundation();
         prevButton: true,
         autoPlay: true,
         autoPlayDelay: 3000,
+        autoPlayInterval: 5000,
+        autoPlayPauseOnHover: true,
         pauseButton: true,
         cycle: true,
         // preloader: true,
@@ -453,10 +458,13 @@ jQuery(document).foundation();
       var options = {
         nextButton: true,
         prevButton: true,
-        autoPlay: false,
+        autoPlay: true,
         autoStop: true,
+        autoPlayInterval: 5000,
         autoPlayDelay: 3000,
+        autoPlayPauseOnHover: true,
         pauseButton: true,
+        phaseThreshold: 3000,
         cycle: true,
         // preloader: true,
         animateStartingFrameIn: true,
@@ -788,7 +796,7 @@ jQuery(document).foundation();
 
       $('.items', $ctx).slick({
         autoplay: true,
-        pauseOnHover: false,
+        pauseOnHover: true,
         dots: show_dots,
         speed: 1500,
         arrows: false
