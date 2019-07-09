@@ -1052,8 +1052,8 @@ figure {
 
 figure img {
     display: block;
-    width: auto;
-    height: 300px;
+    width: 600px;
+    height: auto;
     object-fit: contain;
 }
 
