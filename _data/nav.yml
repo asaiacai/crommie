@@ -4,12 +4,12 @@
 - name: Research
   path: /research
   section_id: research
-- name: Highlights
-  path: /highlights
-  section_id: highlights
-- name: Members
-  path: /members 
-  section_id: members
 - name: Publications
   path: /publications 
   section_id: publications
+- name: Members
+  path: /members 
+  section_id: members
+- name: Contact
+  path: /contact
+  section_id: contact
