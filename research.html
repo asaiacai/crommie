@@ -12,15 +12,15 @@ services:
     img: /images/gdots5.png
     url: /research/imrel
 
-  - title: Topology and Bottom-up Synthesis of Graphene Nanoribbons(GNRs)
+  - title: Topology and Bottom-up Synthesis of Graphene Nanoribbons (GNRs)
     img: /images/topbot.png
     url: /research/syngnr
 
-  - title: CDWs and Superconducvitity in 2D Materials
+  - title: CDWs and Superconductivity in 2D Materials
     img: /images/cdw.png
     url: /research/cdw
 
-  - title: 2D Mott Insulator
+  - title: 2D Mott Insulators
     url: /research/mott
     img: /images/mott.png
 
@@ -57,7 +57,7 @@ services:
     {% endif %}
     <td align="center">
       <figcaption align="middle" style="font-size:1.2em;">
-        <a href="{{service.url | prepend: site.baseurl}}">{{service.title}}</a>
+      <b><a href="{{service.url | prepend: site.baseurl}}">{{service.title}}</a></b>
       </figcaption>
       <a href="{{service.url | prepend: site.baseurl}}">
       <img src="{{service.img | prepend: site.baseurl}}"/ style="max-height: 155px;display: block; margin: 0 auto;">
