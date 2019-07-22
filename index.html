@@ -15,23 +15,23 @@ slides:
         - text: Our Research
           link_to: /research
 
-  - bg: /images/highlights/islands.jpeg
+  - bg: /images/top.png
     title:
       klass: bottom-to-top
-      text: Highlights
+      text: "Imaging Topological Effects in 2D Materials"
     small_title:
       klass: bottom-to-top
-      text: "Press releases, news & views"
+      text: ""
     buttons:
       klass: bottom-to-top
       items:
-        - text: Read More
-          link_to: /highlights
+        - text: About
+          link_to: /research/topological
 
-  - bg: /images/highlights/cof.png
+  - bg: /images/gdots5.png
     small_title:
       klass: bottom-to-top
-      text: "LOCAL ELECTRONIC STRUCTURE OF MOLECULAR HETEROJUNCTIONS IN A SINGLE-LAYER 2D COVALENT ORGANIC FRAMEWORK" 
+      text: "Imaging Relativistic Behavior in Graphene" 
 
     title:
       klass: bottom-to-top
@@ -40,9 +40,9 @@ slides:
       klass: bottom-to-top
       items:
         - text: About
-          link_to: /highlights#cof
+          link_to: /research/imrel
 
-  - bg: /images/highlights/top.png
+  - bg: /images/topbot.png
     small_title:
       klass: bottom-to-top
       text: ""
@@ -54,35 +54,82 @@ slides:
       klass: bottom-to-top
       items:
         - text: About
-          link_to: /highlights#top
+          link_to: /research/syngnr
+
+  - bg: /images/cdw.png
+    small_title:
+      klass: bottom-to-top
+      text: ""
+    title:
+      klass: bottom-to-top
+      text: "CDWs and Superconductivity in 2D Materials"
+
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: About
+          link_to: /research/cdw/
+
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: About
+          link_to: /research/tlbg
+
+  - bg: /images/cof.png
+    small_title:
+      klass: bottom-to-top
+      text: ""
+    title:
+      klass: bottom-to-top
+      text: "Covalent Organic Frameworks"
+
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: About
+          link_to: /research/cof
+
+  - bg: /images/nano.png
+    small_title:
+      klass: bottom-to-top
+      text: ""
+    title:
+      klass: bottom-to-top
+      text: "Nanomachines and Molecular Imaging"
+
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: About
+          link_to: /research/nanomach
 ---
 
 <div class='mod modDefaultSlider'>
-  <div class='sequence'>
-    <a class='sequence-prev' href='javascript:void(0);'>
-      <span></span>
-    </a>
-    <a class='sequence-next' href='javascript:void(0);'>
-      <span></span>
-    </a>
-    <ul class='sequence-pagination'>
-      {% for slide in page.slides %}
-        {% if forloop.first %}
-          {% assign class = 'current' %}
-        {% else %}
-          {% assign class = '' %}
-        {% endif %}
-        <li class="{{class}}"></li>
-      {% endfor %}
-    </ul>
+  <div class='sequence' data-timeout='2000'>
     <ul class='sequence-canvas'>
+      <a class='sequence-prev' href='javascript:void(0);'>
+      <span></span>
+      </a>
+      <a class='sequence-next' href='javascript:void(0);'>
+        <span></span>
+      </a>
+      <ul class='sequence-pagination'>
+        {% for slide in page.slides %}
+          {% if forloop.first %}
+            {% assign class = 'current' %}
+          {% else %}
+            {% assign class = '' %}
+          {% endif %}
+          <li class="{{class}}"></li>
+        {% endfor %}
+      </ul>
       {% for slide in page.slides %}
         {% if forloop.first %}
           {% assign style = 'static' %}
         {% else %}
           {% assign style = '' %}
         {% endif %}
-
         <li class='frame {{style}} {{ slide.klass }}'>
           <div class='bg' style='background-image: url({{ slide.bg | prepend: site.baseurl}});'></div>
           <div class='small-title {{ slide.small_title.klass }}'>

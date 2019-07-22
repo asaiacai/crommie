@@ -199,9 +199,8 @@ jQuery(document).foundation();
       var options = {
         nextButton: true,
         prevButton: true,
-        autoPlay: false,
-        autoPlayInterval: 5000,
-        autoPlayPauseOnHover: true,
+        autoPlay: true,
+        autoPlayDelay: 5000,
         cycle: true,
         // preloader: true,
         animateStartingFrameIn: true,
@@ -213,7 +212,6 @@ jQuery(document).foundation();
           left: "next",
           right: "prev"
         },
-        pauseOnHover: true
       }
 
       var autostop = $('.sequence', $ctx).data('autostop') == 'on' ? true : false;
