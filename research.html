@@ -55,7 +55,7 @@ services:
     {% if forloop.index == 6 %}
     <tr>
     {% endif %}
-    <td align="center">
+    <td onclick="window.location='{{service.url | prepend: site.baseurl}}'" align="center">
       <figcaption align="middle" style="font-size:1.2em;">
       <b><a href="{{service.url | prepend: site.baseurl}}">{{service.title}}</a></b>
       </figcaption>

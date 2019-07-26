@@ -1072,7 +1072,8 @@ table {
 }
 
 td {
-  background-color: #003262 
+  background-color: #003262;
+  cursor: pointer;
 }
 
 td:hover {
