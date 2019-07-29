@@ -2,7 +2,7 @@
 layout: default
 section_id: home
 slides:
-  - bg: /images/group/beast.jpg
+  - bg: /images/slides/1.png
     title:
       klass: bottom-to-top
       text: Nanoscale Microscopy and Spectroscopy Group 
@@ -15,7 +15,7 @@ slides:
         - text: Our Research
           link_to: /research
 
-  - bg: /images/top.png
+  - bg: /images/slides/2.png
     title:
       klass: bottom-to-top
       text: "Imaging Topological Effects in 2D Materials"
@@ -28,7 +28,7 @@ slides:
         - text: About
           link_to: /research/topological
 
-  - bg: /images/gdots5.png
+  - bg: /images/slides/3.png
     small_title:
       klass: bottom-to-top
       text: "" 
@@ -42,7 +42,7 @@ slides:
         - text: About
           link_to: /research/imrel
 
-  - bg: /images/topbot.png
+  - bg: /images/slides/4.png
     small_title:
       klass: bottom-to-top
       text: ""
@@ -56,7 +56,7 @@ slides:
         - text: About
           link_to: /research/syngnr
 
-  - bg: /images/cdw.png
+  - bg: /images/slides/5.png
     small_title:
       klass: bottom-to-top
       text: ""
@@ -76,7 +76,7 @@ slides:
         - text: About
           link_to: /research/tlbg
 
-  - bg: /images/cof.png
+  - bg: /images/slides/6.png
     small_title:
       klass: bottom-to-top
       text: ""
@@ -90,7 +90,7 @@ slides:
         - text: About
           link_to: /research/cof
 
-  - bg: /images/nano.png
+  - bg: /images/slides/7.png
     small_title:
       klass: bottom-to-top
       text: ""
@@ -103,10 +103,14 @@ slides:
       items:
         - text: About
           link_to: /research/nanomach
+
+  - bg: /images/slides/8.png
+
+  - bg: /images/slides/9.png
 ---
 
 <div class='mod modDefaultSlider'>
-  <div class='sequence' data-timeout='2000'>
+  <div class='sequence' data-timeout='3000'>
     <ul class='sequence-canvas'>
       <a class='sequence-prev' href='javascript:void(0);'>
       <span></span>
@@ -132,26 +136,27 @@ slides:
         {% endif %}
         <li class='frame {{style}} {{ slide.klass }}'>
           <div class='bg' style='background-image: url({{ slide.bg | prepend: site.baseurl}});'></div>
-          <div class='small-title {{ slide.small_title.klass }}'>
-            <div class='row'>
-              <div class='large-12 columns'>
-                <h2>{{ slide.small_title.text }}</h2>
-              </div>
-            </div>
-          </div>
           <div class='title {{ slide.title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
-                <h2>{{ slide.title.text }}</h2>
+                <h2>Nanoscale Microscopy and Spectroscopy Group</h2>
+              </div>
+            </div>
+          </div>
+          <div class='small-title {{ slide.small_title.klass }}'>
+            <div class='row'>
+              <div class='large-12 columns'>
+                <h2>UC Berkeley, Department of Physics <br/> Lawrence Berkeley National Laboratory, Materials Sciences Division </h2>
               </div>
             </div>
           </div>
           <div class='buttons-wrapper {{ slide.buttons.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
-                <div class='two spacing'></div>
+                <div class='full'></div>
+                <div class='full'></div>
                 {% for button in slide.buttons.items %}
-                  <a class='button {{ button.klass }}' href='{{ button.link_to | prepend: site.baseurl}}'>{{ button.text }}</a>
+                  <a class='button static' href='{{ "/research" | prepend: site.baseurl}}'>Our Research</a>
                 {% endfor %}
               </div>
             </div>

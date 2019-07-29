@@ -780,7 +780,7 @@ ul.shortcode-list i {
   letter-spacing: 1px;
   color: #fff;
   background: #008000;
-  border: 5px solid #000;
+  border: 5px solid #fff;
 }
 
 .button:hover {
@@ -1070,7 +1070,8 @@ figcaption {
     color: #000000;
     vertical-align:middle;
     font-size: 1.3em;
-    line-height: 1.1
+    line-height: 1.1;
+    min-width: 120px;
 }​
 
 
@@ -2268,10 +2269,10 @@ td:hover {
   -o-transition-duration: 0.01s;
   -webkit-transition-duration: 0.01s;
   transition-duration: 0.01s;
-  -moz-transition-delay: 0s;
-  -o-transition-delay: 0s;
-  -webkit-transition-delay: 0s;
-  transition-delay: 0s;
+  -moz-transition-delay: 1.5s;
+  -o-transition-delay: 1.5s;
+  -webkit-transition-delay: 1.5s;
+  transition-delay: 1.5s;
 }
 .modDefaultSlider .sequence .animate-out .bg {
   left: -100%;
@@ -2291,8 +2292,10 @@ td:hover {
   color: #fff;
   letter-spacing: 2px;
   font-weight: bold;
-  margin-bottom: 40px;
-  text-transform: uppercase;
+  margin-bottom: 0px;
+  text-transform: none;
+  font-weight: bold;
+  font-style: italic;
 }
 .modDefaultSlider .sequence .small-title h2 {
   font-size: 1.28571rem;
@@ -2300,6 +2303,8 @@ td:hover {
   color: #fff;
   letter-spacing: 2px;
   margin-bottom: 5px;
+  font-weight: bold;
+  font-style: italic;
 }
 .modDefaultSlider .sequence .right {
   text-align: right;
@@ -3006,7 +3011,7 @@ body {
   background-color: rgba(255, 255, 255, 0.7);
 }
 .modSectionHeader .special-title h2 {
-  text-transform: uppercase;
+  text-transform: none;
   display: inline-block;
 }
 .modSectionHeader .special-title h2::after {

@@ -11,31 +11,32 @@ section_id: photoact
       {% include section-header.html title="Photo-actuated Molecular Machines" color="#000" %}
       <p>A nanomachine is a nanostructure that can convert different forms of energy into mechanical motion.  The Crommie group is actively pursuing research into nanomachines actuated via light, static electric fields, and electrical current.  Our emphasis is on exploring mechanical behavior at the atomic and molecular scales.  At very small lengthscales standard mechanical concepts such as friction, force, and motion differ from their intuitive classical macroscopic behaviors due to quantum mechanical behavior.  Construction of functional machines at the nanoscale also requires the synthesis of complex molecular assemblies with atomic precision. Our research here is focused in three main areas:  (i) molecular assembly and characterization, (ii) energy conversion and dissipation at the nanoscale, and (iii) the synchronous coordination of molecular machine elements.</p>
       <p>The conversion of optical energy into mechanical motion is particularly desirable for molecular machines because it does not require electrical contacts and provides a superbly flexible and high bandwidth medium.  One strategy for transducing light into mechanical motion is the use of photoisomerization in single molecules. This topic has been explored by the Crommie group. The basic idea here is that when certain molecules absorb a photon they undergo structural evolution into a different shape (an isomer), and this process can be used to perform mechanical work at very small length scales. One molecule that can accomplish this is azobenzene <b>(Fig. 1a)</b>, which converts reversibly between “trans” and “cis” isomer structures upon photon absorption, as shown in <b>Fig. 1.</b><sup>1</sup> If an azobenzene molecule in the trans ground state (the S<sub>0</sub> manifold of the potential energy surface) absorbs a photon then it is lifted to the excited-state manifold, S<sub>1</sub>, as shown by the purple arrow in <b>Fig. 1a</b>. While the trans state is a minimum of S<sub>0</sub>, it is not a minimum of S<sub>1</sub> (with respect to structural coordinates), and so the molecule’s structure evolves by sliding down the potential energy surface into the cis state.<sup>2</sup>
-      <figure>
-      <img src="{{"/images/research/photoact/photoact1.png" | prepend: site.baseurl}}" align="middle" style="float: left;width: 500px">
+      <figure class="side">
+      <img src="{{"/images/research/photoact/photoact1.png" | prepend: site.baseurl}}" align="middle" style="width: 600px">
         <div class='spacing'></div>
         <figcaption style="color:#000">
           <b>Fig. 1:</b>  <b>(a)</b> Sketch shows equivalency between honeycomb-ordered COF network and Kagome lattice.  <b>(b)</b> Sketch illustrates quantum interference that arises in Kagome lattice.  <b>(c)</b> Destructive quantum interference leads to flat band in Kagome electronic structure.  Dirac-like crossings are also present. <b>(d)-(f)</b> Unique electronic structure of Kagome lattice leads to predictions of novel magnetism, Wigner crystallization, and quantum spin Hall effect.
         </figcaption>
       </figure>
       <p>Photoisomerization of azobenzene (and molecules like it) could potentially be used to create nanomachines at the molecular scale capable of converting optical energy into translational motion. One strategy for pursuing this is through inchworm-like conformational changes. To accomplish this a single molecule (or short chain of molecules) would be functionalized at the ends with elements whose surface adsorption energy can be toggled with light. Light pulses could then be used to expand (via the trans state) and contract (via the cis state) the molecule while toggling the adsorption strength of the end units, thus resulting in forward motion. An animation describing this proposed process is shown in <b>Fig. 2</b>.</p>
-      <video width="400" height="300" controls>
+      <video width="480" height="360" controls>
         <source src="{{"/images/research/photoact/AB_inchworm.webm" | prepend : site.baseurl }}" type="video/webm">
       </video>
       <figcaption>
           <b>Fig. 2:</b>  Animation shows proposed light-actuated nanomachine capable of controlled, driven translocation across a surface.
       </figcaption>
+      <div class="spacing"></div>
       <p>The Crommie group has shown that it is possible to actuate individual azobenzene molecules using an ultraviolet laser <b>(Fig. 3a, b)</b>.<sup>3</sup> Azobenzene molecules were functionalized with tetra-tert-butyl groups to decouple them from the gold substrate supporting them <b>(Fig. 3b).</b> Conversion of single molecules from trans to cis was observed after photon absorption.<sup>3</sup> The dynamics of this process have been explored,<sup>4</sup> as well as the dependence on molecular chirality and different surface characteristics.<sup>5</sup></p>
-      <figure>
-      <img src="{{"/images/research/photoact/photoact2.png" | prepend: site.baseurl}}" align="middle" style="float: left;">
+      <figure class="side">
+      <img src="{{"/images/research/photoact/photoact2.png" | prepend: site.baseurl}}" align="middle">
         <div class='spacing'></div>
         <figcaption style="color:#000;">
           <b>Fig. 3: (a)</b> STM images show azobenzene-decorated gold surface before and after illumination with UV light.  Raised peaks mark the location of photo-isomerized molecules. <b>(b)</b> Sketch of azobenzene structure including tert-butyl functionalization to reduce surface coupling.  Larger scale STM image shows photo-induced conversion of azobenzene from trans groundstate to metastable cis conformation. (STM images: Crommie group).
         </figcaption>
       </figure>
       <p>Other photoactive molecules have been explored by the Crommie group, such as ruthenium fulvalene (FvRu<sub>2</sub>(CO)<sub>4</sub>).<sup>6,7</sup> This molecule is a candidate for energy storage since it converts to a high-energy isomer upon optical absorption and can controllably release the energy as heat <b>(Fig. 4a)</b>. <b>Figs. 4b, c</b> show STM images of Ru-fulvalene in different isomer states before and after photon absorption.</p>
-      <figure>
-      <img src="{{"/images/research/photoact/photoact3.png" | prepend: site.baseurl}}" align="middle" style="float: left; width:380px">
+      <figure class="side">
+      <img src="{{"/images/research/photoact/photoact3.png" | prepend: site.baseurl}}" align="middle" style="width:380px">
         <div class='spacing'></div>
         <figcaption style="color:#000;">
           <b>Fig. 4: (a)</b> Sketch of Ru-fulvalene photo-isomerization at a surface. Ru-fulvalene converts to a high energy isomer upon photon absorption. <b>(b)-(c)</b> STM images of Ru-fulvalene molecular structural evolution under photon absorption indicates photo-isomerization process on Ag(100) surface.  (STM images: Crommie group; molecular precursor synthesis: Vollhardt group).
