@@ -1050,6 +1050,11 @@ figure {
    display: table;
 }
 
+figure.side {
+	display: flex;
+	align-items: center;
+}
+
 figure img {
     display: block;
     width: 600px;
