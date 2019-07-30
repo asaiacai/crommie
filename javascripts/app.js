@@ -205,7 +205,6 @@ jQuery(document).foundation();
         // preloader: true,
         animateStartingFrameIn: true,
         pagination: true,
-        reverseAnimationsWhenNavigatingBackwards: true,
         preventDelayWhenReversingAnimations: true,
         fadeFrameWhenSkipped: false,
         swipeEvents: {

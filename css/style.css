@@ -2206,10 +2206,10 @@ td:hover {
   -o-transition-duration: 0.01s;
   -webkit-transition-duration: 0.01s;
   transition-duration: 0.01s;
-  -moz-transition-delay: 0.01s;
-  -o-transition-delay: 0.3s;
-  -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
 }
 .modDefaultSlider .sequence .animate-in .small-title.bottom-to-top {
   top: 150px;
@@ -2219,10 +2219,10 @@ td:hover {
   -o-transition-duration: 0.01s;
   -webkit-transition-duration: 0.01s;
   transition-duration: 0.01s;
-  -moz-transition-delay: 0.3s;
-  -o-transition-delay: 0.3s;
-  -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
 }
 
 .modDefaultSlider .sequence .animate-in .buttons-wrapper.bottom-to-top {
@@ -2230,10 +2230,10 @@ td:hover {
   -o-transition-duration: 0.01s;
   -webkit-transition-duration: 0.01s;
   transition-duration: 0.01s;
-  -moz-transition-delay: 0.3s;
-  -o-transition-delay: 0.3s;
-  -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
   top: 150px;
   opacity: 1;
   left: 0;
@@ -2275,10 +2275,10 @@ td:hover {
   -o-transition-duration: 0.01s;
   -webkit-transition-duration: 0.01s;
   transition-duration: 0.01s;
-  -moz-transition-delay: 1.5s;
-  -o-transition-delay: 1.5s;
-  -webkit-transition-delay: 1.5s;
-  transition-delay: 1.5s;
+  -moz-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
 }
 .modDefaultSlider .sequence .animate-out .bg {
   left: -100%;
