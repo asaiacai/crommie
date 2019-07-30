@@ -781,6 +781,8 @@ ul.shortcode-list i {
   color: #fff;
   background: #008000;
   border: 5px solid #fff;
+  position: relative;
+  bottom: -190px;
 }
 
 .button:hover {
@@ -832,7 +834,7 @@ ul.shortcode-list i {
 }
 
 .contain-to-grid {
-  height: 100px;
+  height: 48px;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -847,6 +849,7 @@ ul.shortcode-list i {
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
+  height: 48px;
 }
 .contain-to-grid .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
   -moz-transition-property: all;
@@ -857,9 +860,12 @@ ul.shortcode-list i {
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
+  height: 48px;
+  display: block;
+  line-height: 48px;
 }
 .contain-to-grid .top-bar-section li:not(.has-form) a:not(.button) {
-  height: 100px;
+  height: 48px;
 }
 .contain-to-grid .top-bar-section .has-dropdown > a:after {
   -moz-transition-property: all;
@@ -873,8 +879,8 @@ ul.shortcode-list i {
   top: 3.57143rem;
 }
 .contain-to-grid .title-area, .contain-to-grid .title-area li, .contain-to-grid .title-area a {
-  height: 100px;
-  line-height: 100px;
+  height: 48px;
+  line-height: 48px;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -897,19 +903,19 @@ ul.shortcode-list i {
 }
 
 .f-topbar-fixed.shrink .contain-to-grid {
-  height: 60px;
+  height: 48px;
 }
 .f-topbar-fixed.shrink .top-bar {
-  height: 60px;
-  line-height: 60px;
+  height: 48px;
+  line-height: 48px;
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
 .f-topbar-fixed.shrink .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
-  height: 60px;
-  line-height: 60px;
+  height: 48px;
+  line-height: 48px;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -923,12 +929,12 @@ ul.shortcode-list i {
   top: 2.14286rem;
 }
 .f-topbar-fixed.shrink .top-bar .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
-  height: 60px;
-  line-height: 60px;
+  height: 48px;
+  line-height: 48px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area, .f-topbar-fixed.shrink .top-bar .title-area li, .f-topbar-fixed.shrink .top-bar .title-area a {
-  height: 60px;
-  line-height: 60px;
+  height: 48px;
+  line-height: 48px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area img, .f-topbar-fixed.shrink .top-bar .title-area li img, .f-topbar-fixed.shrink .top-bar .title-area a img {
   width: 70%;
@@ -2291,11 +2297,18 @@ td:hover {
   display: inline-block;
   color: #fff;
   letter-spacing: 2px;
+  position: relative;
+  top: -80px;
   font-weight: bold;
   margin-bottom: 0px;
   text-transform: none;
   font-weight: bold;
   font-style: italic;
+  text-shadow:
+  	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
 }
 .modDefaultSlider .sequence .small-title h2 {
   font-size: 1.28571rem;
@@ -2305,6 +2318,13 @@ td:hover {
   margin-bottom: 5px;
   font-weight: bold;
   font-style: italic;
+  position: relative;
+  top: -75px;
+  text-shadow:
+  	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
 }
 .modDefaultSlider .sequence .right {
   text-align: right;

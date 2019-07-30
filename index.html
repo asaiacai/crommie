@@ -106,7 +106,32 @@ slides:
 
   - bg: /images/slides/8.png
 
+    small_title:
+      klass: bottom-to-top
+      text: ""
+    title:
+      klass: bottom-to-top
+      text: "Nanomachines and Molecular Imaging"
+
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: About
+          link_to: /research/nanomach
   - bg: /images/slides/9.png
+
+    small_title:
+      klass: bottom-to-top
+      text: ""
+    title:
+      klass: bottom-to-top
+      text: "Nanomachines and Molecular Imaging"
+
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: About
+          link_to: /research/nanomach
 ---
 
 <div class='mod modDefaultSlider'>
@@ -118,16 +143,6 @@ slides:
       <a class='sequence-next' href='javascript:void(0);'>
         <span></span>
       </a>
-      <ul class='sequence-pagination'>
-        {% for slide in page.slides %}
-          {% if forloop.first %}
-            {% assign class = 'current' %}
-          {% else %}
-            {% assign class = '' %}
-          {% endif %}
-          <li class="{{class}}"></li>
-        {% endfor %}
-      </ul>
       {% for slide in page.slides %}
         {% if forloop.first %}
           {% assign style = 'static' %}
@@ -139,7 +154,7 @@ slides:
           <div class='title {{ slide.title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
-                <h2>Nanoscale Microscopy and Spectroscopy Group</h2>
+                <h2>Scanned Probe Microscopy and Spectroscopy</h2>
               </div>
             </div>
           </div>
@@ -153,8 +168,6 @@ slides:
           <div class='buttons-wrapper {{ slide.buttons.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
-                <div class='full'></div>
-                <div class='full'></div>
                 {% for button in slide.buttons.items %}
                   <a class='button static' href='{{ "/research" | prepend: site.baseurl}}'>Our Research</a>
                 {% endfor %}
