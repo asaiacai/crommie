@@ -802,6 +802,7 @@ ul.shortcode-list i {
 /*Top bar */
 .top-bar {
   z-index: 100;
+  height: 48px;
 }
 .top-bar .title-area .name h1 a {
   font-size: 2.57143rem;
@@ -848,7 +849,6 @@ ul.shortcode-list i {
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
-  height: 48px;
 }
 .contain-to-grid .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
   -moz-transition-property: all;
@@ -859,9 +859,6 @@ ul.shortcode-list i {
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
-  height: 48px;
-  display: block;
-  line-height: 48px;
 }
 
 .top-bar-section ul li > a {
@@ -870,6 +867,7 @@ ul.shortcode-list i {
 }
 .contain-to-grid .top-bar-section li:not(.has-form) a:not(.button) {
   height: 48px;
+  line-height: 48px;
 }
 .contain-to-grid .top-bar-section .has-dropdown > a:after {
   -moz-transition-property: all;
