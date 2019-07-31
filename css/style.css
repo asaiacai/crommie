@@ -653,16 +653,15 @@ hr {
 }
 
 .full {
-  padding: 80px 0 0;
+  padding: 80px 0 0px;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 15%;
 }
 .full.no-padding {
   padding: 0;
 }
 
 .parallax {
-  background-attachment: fixed;
 }
 
 ul.shortcode-list {
@@ -863,6 +862,11 @@ ul.shortcode-list i {
   height: 48px;
   display: block;
   line-height: 48px;
+}
+
+.top-bar-section ul li > a {
+	color: #000;
+	font-weight: bold;
 }
 .contain-to-grid .top-bar-section li:not(.has-form) a:not(.button) {
   height: 48px;
@@ -2169,6 +2173,12 @@ td:hover {
   top: 200px;
   opacity: 0;
 }
+
+.modDefaultSlider .sequence .buttons-wrapper.bottom-to-top {
+	position: absolute;
+	top: 350px;
+}
+
 .modDefaultSlider .sequence .bg {
   -moz-transition-property: left;
   -o-transition-property: left;
@@ -2234,7 +2244,19 @@ td:hover {
   -o-transition-delay: 0s;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
-  top: 150px;
+  opacity: 1;
+  left: 0;
+}
+
+.modDefaultSlider .sequence .animate-in .info.bottom-to-top {
+  -moz-transition-duration: 0.01s;
+  -o-transition-duration: 0.01s;
+  -webkit-transition-duration: 0.01s;
+  transition-duration: 0.01s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
   opacity: 1;
   left: 0;
 }
@@ -2275,10 +2297,10 @@ td:hover {
   -o-transition-duration: 0.01s;
   -webkit-transition-duration: 0.01s;
   transition-duration: 0.01s;
-  -moz-transition-delay: 0.5s;
-  -o-transition-delay: 0.5s;
-  -webkit-transition-delay: 0.5s;
-  transition-delay: 0.5s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
 }
 .modDefaultSlider .sequence .animate-out .bg {
   left: -100%;
@@ -2298,7 +2320,7 @@ td:hover {
   color: #fff;
   letter-spacing: 2px;
   position: relative;
-  top: -80px;
+  top: -130px;
   font-weight: bold;
   margin-bottom: 0px;
   text-transform: none;
@@ -2319,7 +2341,24 @@ td:hover {
   font-weight: bold;
   font-style: italic;
   position: relative;
-  top: -75px;
+  top: -125px;
+  text-shadow:
+  	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}
+
+.modDefaultSlider .sequence .info h2 {
+  font-size: 1.28571rem;
+  font-weight: normal;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+  top: -135px;
   text-shadow:
   	-1px -1px 0 #000,
 	1px -1px 0 #000,
