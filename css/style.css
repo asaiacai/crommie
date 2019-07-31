@@ -2179,6 +2179,13 @@ td:hover {
 	top: 350px;
 }
 
+
+.modDefaultSlider .sequence .info.bottom-to-top {
+	position: absolute;
+	top: 750px;
+	text-align: right;
+}
+
 .modDefaultSlider .sequence .bg {
   -moz-transition-property: left;
   -o-transition-property: left;
