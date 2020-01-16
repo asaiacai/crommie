@@ -2181,7 +2181,7 @@ td:hover {
 .modDefaultSlider .sequence .info.bottom-to-top {
 	position: absolute;
 	top: 750px;
-	text-align: right;
+	text-align: center; 
 }
 
 .modDefaultSlider .sequence .bg {
@@ -2361,9 +2361,12 @@ td:hover {
   letter-spacing: 2px;
   margin-bottom: 5px;
   font-weight: bold;
+  text-transform: none;
+  font-size: 1.2em;
   font-style: italic;
   position: relative;
-  top: -135px;
+  top: -125px;
+  right: -30px;
   text-shadow:
   	-1px -1px 0 #000,
 	1px -1px 0 #000,

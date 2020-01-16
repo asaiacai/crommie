@@ -38,7 +38,7 @@ slides:
     title:
       klass: bottom-to-top
       text: "Topological Graphene Nanoribbon"
-      link: /research/syngnr
+      link: /research/syngnr/topeng
     buttons:
       klass: bottom-to-top
       items:
@@ -116,7 +116,7 @@ slides:
     small_title:
     title:
       klass: bottom-to-top
-      text: "Metallic Graphene Nanoribbons"
+      text: "Metallic Graphene Nanoribbon"
       link: /research/syngnr/topeng
 
     buttons:
@@ -184,7 +184,7 @@ slides:
 	  <div class='info bottom-to-top'>
 	    <div class='row'>
 	       <div class='large-12 columns'>
-		       <a href="{{ slide.title.link }}"><h2>{{ slide.title.text }}</h2></a>
+		       <a href="{{ slide.title.link | prepend: site.baseurl }}"><h2>{{ slide.title.text }}</h2></a>
 	       </div>
 	    </div>
 	  </div>
@@ -197,7 +197,7 @@ slides:
   <div class="row">
     <div class="large-12 columns">
       <p>
-      We are a condensed matter research group located at both the UC Berkeley campus and LBNL that integrates scanned probe microscopy with other experimental techniques to investigate the structural, electronic, optical, and magnetic behavior of low-dimensional (1D and 2D) nanostructures. Our current research areas of interest include the following:<br/> 
+      We are a condensed matter research group located at both the UC Berkeley campus and LBNL that integrates <a href="https://en.wikipedia.org/wiki/Scanning_tunneling_microscope">scanned probe microscopy</a> with other experimental techniques to investigate the structural, electronic, optical, and magnetic behavior of low-dimensional (1D and 2D) nanostructures. Our current research areas of interest include the following:<br/> 
       <a href="{{"/research/" | prepend : site.baseurl}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) Topological and relativistic effects in low-dimensional materials<br/>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) Bottom-up synthesis of 1D and 2D molecular structures<br/>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3) Correlation effects in 2D materials<br/>
